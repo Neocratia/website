@@ -36,7 +36,8 @@ export default {
       fixed: false,
       items: [{icon: 'home', title: 'Home', to: '/'},
               {icon: 'people', title: 'About us', to: '/inspire'},
-              {icon: 'mail', title: 'Contact', to: '/contact'}
+              {icon: 'mail', title: 'Contact', to: '/contact'},
+              {icon: 'chat', title: 'Join', to: '/join'}
              ],
       title: 'Neocratia'
     }
