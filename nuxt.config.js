@@ -22,10 +22,13 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['vuetify']
+    vendor: ['vuetify', 'firebase']
   },
-  plugins: ['~plugins/vuetify.js'],
+  plugins: ['~plugins/vuetify.js', '~plugins/firebase.js'],
   css: [
     { src: '~assets/style/app.styl', lang: 'styl' }
-  ]
+  ],
+  env: {
+    firebase_url: process.env.FIREBASE_URL
+  }
 }

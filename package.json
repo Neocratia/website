@@ -10,8 +10,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "firebase": "^4.2.0",
     "nuxt": "0.10.7",
+    "promise-polyfill": "^6.0.2",
+    "vue": "^2.4.2",
     "vue-server-renderer": "latest",
+    "vue-template-compiler": "^2.4.2",
     "vuetify": "^0.14.7"
   },
   "devDependencies": {
