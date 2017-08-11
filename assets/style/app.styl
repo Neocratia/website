@@ -1,7 +1,11 @@
 // Specify overrides (theme and/or base variables etc.)
 // See https://vuetifyjs.com/quick-start
+@require '~vuetify/src/stylus/settings/_colors'
+
+$body-font-family := 'Muli', sans-serif
+
 $theme := {
-  primary: #9c27b0
+  primary: $purple.base
   accent: #ce93d8
   secondary: #424242
   info: #0D47A1
@@ -15,3 +19,9 @@ $theme := {
 
 .page
   @extend .fade-transition
+
+.toolbar
+  &__title
+    font-size: $headings.h5.size
+    font-weight: $font-weights.medium
+    margin-top: -0.25em;
