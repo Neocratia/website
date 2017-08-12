@@ -1,27 +1,10 @@
-// Specify overrides (theme and/or base variables etc.)
+// Overrides (theme and/or base variables etc.)
 // See https://vuetifyjs.com/quick-start
-@require '~vuetify/src/stylus/settings/_colors'
 
-$body-font-family := 'Muli', sans-serif
-
-$theme := {
-  primary: $purple.base
-  accent: #ce93d8
-  secondary: #424242
-  info: #0D47A1
-  warning: #ffb300
-  error: #B71C1C
-  success: #2E7D32
-}
+@require '_variables.styl'
 
 // Import Vuetify styling
 @require '~vuetify/src/stylus/main.styl'
 
-.page
-  @extend .fade-transition
-
-.toolbar
-  &__title
-    font-size: $headings.h5.size
-    font-weight: $font-weights.medium
-    margin-top: -0.25em;
+// Custom styles
+@require '_custom.styl'

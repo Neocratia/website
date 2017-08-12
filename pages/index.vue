@@ -1,27 +1,43 @@
 <template>
 <v-layout column align-center>
   <v-flex xs12 sm10 md8 lg6>
-    <v-card flat tile class="primary text-xs-center" height="300px">
+    <v-card flat tile class="primary text-xs-center" height="40vmin">
       <v-layout fill-height justify-center>
         <v-card-title primary-title class="white--text display-1">
           Let's reinvent the way our laws are created.
         </v-card-title>
       </v-layout>
     </v-card>
-    <v-card flat tile class="secondary text-xs-center" height="300px">
-      <v-card-title primary-title class="white--text display-1">
-        VIDEO HERE
-      </v-card-title>
+    <v-card flat tile class="secondary text-xs-center" height="40vmin">
+      <v-layout fill-height justify-center>
+        <v-card-title primary-title class="white--text display-1">
+          VIDEO
+        </v-card-title>
+      </v-layout>
     </v-card>
 
     <p class="headline text-xs-center mt-5">
-      Our goal is to bring honesty to all governments and societies by enabling citizens to make laws and decisions with transparency, accountabilty, liquid democracy, and thoughtful debate.
+      Our goal is to bring honesty to all governments and societies by enabling citizens to make laws and decisions with transparency, accountability, liquid democracy, and thoughtful debate.
     </p>
 
-    <hr class="mt-5 mb-5" />
+    <v-card class="primary white--text mt-5">
+      <v-container fluid grid-list-lg>
+        <v-layout row align-center>
+          <v-flex xs3 lg2>
+            <v-card-media src="http://cdn.onlinewebfonts.com/svg/img_383210.svg" height="16vmin" contain></v-card-media>
+          </v-flex>
+          <v-flex xs9 lg10>
+            <div class="headline">
+              “Everything is awesome, everything is cool when your part of a team. Everything is awesome!”
+            </div>
+            <div class="title text-xs-right">Ellie Goulding</div>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </v-card>
 
-    <h2 class="text-xs-center display-1">Join the movement</h2>
-    <form method="get" action="">
+    <h2 class="text-xs-center display-1 mt-5">Join the movement</h2>
+    <!-- <form method="get" action="" class="mt-5">
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Stay informed" value="stay-informed"></v-radio>
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Lead the movement locally" value="lead-the-movement-locally"></v-radio>
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Donate" value="donate"></v-radio>
@@ -29,9 +45,9 @@
       <div class="text-xs-right">
         <v-btn primary dark large type="submit">JOIN</v-btn>
       </div>
-    </form>
+    </form> -->
 
-    <v-card flat tile class="primary text-xs-center mt-5" height="150px">
+    <v-card flat tile class="primary text-xs-center mt-5" height="20vmin">
       <v-layout fill-height justify-center>
         <v-card-title primary-title class="white--text display-1">
           Learn more:
@@ -40,14 +56,70 @@
     </v-card>
 
     <v-expansion-panel class="mt-3">
-      <v-expansion-panel-content v-for="(item,i) in 5" :key="i">
-        <div slot="header">Item</div>
+      <v-expansion-panel-content>
+        <div slot="header">Origins of our movement</div>
+        <v-card>
+          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+        </v-card>
+      </v-expansion-panel-content>
+      <v-expansion-panel-content>
+        <div slot="header">Our values and premises</div>
+        <v-card>
+          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+        </v-card>
+      </v-expansion-panel-content>
+      <v-expansion-panel-content>
+        <div slot="header">How laws and decisions are made</div>
+        <v-card>
+          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+        </v-card>
+      </v-expansion-panel-content>
+      <v-expansion-panel-content>
+        <div slot="header">Our roadmap</div>
+        <v-card>
+          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+        </v-card>
+      </v-expansion-panel-content>
+      <v-expansion-panel-content>
+        <div slot="header">Volunteering</div>
+        <v-card>
+          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+        </v-card>
+      </v-expansion-panel-content>
+      <v-expansion-panel-content>
+        <div slot="header">Donating</div>
+        <v-card>
+          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+        </v-card>
+      </v-expansion-panel-content>
+      <v-expansion-panel-content>
+        <div slot="header">Our team</div>
         <v-card>
           <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
         </v-card>
       </v-expansion-panel-content>
     </v-expansion-panel>
 
+    <v-card class="primary white--text mt-5">
+      <v-container fluid grid-list-lg>
+        <v-layout column align-center justify-center>
+          <v-card-title primary-title class="white--text display-1">
+            Spread the word:
+          </v-card-title>
+          <div class="mb-4">
+            <v-btn light class="square">
+              <v-icon x-large primary>mdi-facebook</v-icon>
+            </v-btn>
+            <v-btn light class="square">
+              <v-icon x-large primary>mdi-whatsapp</v-icon>
+            </v-btn>
+            <v-btn light class="square">
+              <v-icon x-large primary>mdi-twitter</v-icon>
+            </v-btn>
+          </div>
+        </v-layout>
+      </v-container>
+    </v-card>
 
   </v-flex>
 </v-layout>

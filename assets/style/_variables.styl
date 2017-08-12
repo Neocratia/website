@@ -1,0 +1,38 @@
+@require '~vuetify/src/stylus/settings/_colors'
+
+$body-font-family := 'Muli', sans-serif
+$font-size-root := 2vmin;
+$font-size-divider:= 12;
+
+$theme := {
+  primary: $purple.darken-1
+  accent: $deep-purple.lighten-3
+  secondary: $grey.darken-3
+  info: $blue.darken-4
+  warning: $amber.darken-1
+  error: $red.darken-4
+  success: $green.darken-3
+}
+
+$font-weights := {
+  thin: 100,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 700,
+  black: 900
+}
+
+$headings := {
+  h1: { size: 112/$font-size-divider * $font-size-root, weight: $font-weights.light, line-height: 1, letter-spacing: -.04em },
+  h2: { size: 56/$font-size-divider * $font-size-root, weight: $font-weights.regular, line-height: 1.35, letter-spacing: -.02em },
+  h3: { size: 45/$font-size-divider * $font-size-root, weight: $font-weights.regular, line-height: 48/$font-size-divider * $font-size-root, letter-spacing: normal },
+  h4: { size: 36/$font-size-divider * $font-size-root, weight: $font-weights.regular, line-height: 40/$font-size-divider * $font-size-root, letter-spacing: normal },
+  h5: { size: 24/$font-size-divider * $font-size-root, weight: $font-weights.regular, line-height: 32/$font-size-divider * $font-size-root, letter-spacing: normal },
+  h6: { size: 20/$font-size-divider * $font-size-root, weight: $font-weights.medium, line-height: 1, letter-spacing: .02em },
+  subheading: { size: 16/$font-size-divider * $font-size-root, weight: $font-weights.regular },
+  body-2: { size: $font-size-root, weight: $font-weights.medium },
+  body-1: { size: $font-size-root, weight: $font-weights.regular },
+  caption: { size: 12/$font-size-divider * $font-size-root, weight: $font-weights.regular },
+  button: { size: $font-size-root, weight: $font-weights.medium }
+}
