@@ -1,7 +1,7 @@
     var firebase = require('firebase');
     // Initialize Firebase
     var config = {
-      databaseURL: process.env.FIREBASE_URL
+      databaseURL: process.env.firebase_url
     };
     if (!firebase.apps.length) {
       firebase.initializeApp(config);

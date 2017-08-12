@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   /*
   ** Headers of the page
@@ -29,6 +31,6 @@ module.exports = {
     { src: '~assets/style/app.styl', lang: 'styl' }
   ],
   env: {
-    firebase_url: process.env.FIREBASE_URL
+    firebase_url: process.env.XFIREBASE_URL
   }
 }

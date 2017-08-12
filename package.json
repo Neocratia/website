@@ -10,6 +10,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "config": "^1.26.1",
+    "dotenv": "^4.0.0",
     "firebase": "^4.2.0",
     "nuxt": "0.10.7",
     "promise-polyfill": "^6.0.2",
