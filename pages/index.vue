@@ -115,7 +115,7 @@
           </v-card-title>
           <div class="mb-4">
             <v-btn light class="square">
-              <v-icon x-large primary>mdi-facebook</v-icon>
+              <v-icon x-large primary to="https://www.facebook.com/sharer/sharer.php?u=https://www.neocratia.org">mdi-facebook</v-icon>
             </v-btn>
             <v-btn light class="square">
               <v-icon x-large primary>mdi-whatsapp</v-icon>
