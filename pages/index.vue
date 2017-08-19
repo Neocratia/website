@@ -39,10 +39,10 @@
     <h2 class="text-xs-center display-1 mt-5">Join the movement</h2>
 
     <v-alert success value="true" v-if="form_success">
-      This is a success alert.
+      Thank you! the information has been submitted.
     </v-alert>
     <v-alert error value="true" v-if="form_error">
-      This is a error alert.
+      There is an error in the provided information. Validate and try again.
     </v-alert>
     <form class="mt-5"  v-on:submit.prevent v-if="!form_success">
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Stay informed" value="stay-informed"></v-radio>
@@ -134,13 +134,19 @@
 
 <script>
   var firebase = require('firebase');
+
+  function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
   export default {
     data () {
       return {
         interest: null,
         email: null,
         form_error: false,
-        form_success: false
+        form_success: false,
+        form_errors: {}
       }
     },
     methods: {
@@ -152,12 +158,18 @@
         var email = this._data.email;
         var timestamp = Number(new Date());
 
-        firebase.database().ref('contacts/' + timestamp).set({
-            interest: interest,
-            email: email
-        });
+        if(!email || !interest || !validateEmail(email)){
+          this._data.form_error = true;
+        }else{
+          firebase.database().ref('contacts/' + timestamp).set({
+              interest: interest,
+              email: email
+          });
 
-        this._data.form_success = true;
+          this._data.form_success = true;
+          this._data.form_error = false;        
+        }
+
 
 
         return false;
