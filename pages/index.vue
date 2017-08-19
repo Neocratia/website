@@ -37,15 +37,22 @@
     </v-card>
 
     <h2 class="text-xs-center display-1 mt-5">Join the movement</h2>
-    <!-- <form method="get" action="" class="mt-5">
+
+    <v-alert success value="true" v-if="form_success">
+      This is a success alert.
+    </v-alert>
+    <v-alert error value="true" v-if="form_error">
+      This is a error alert.
+    </v-alert>
+    <form class="mt-5"  v-on:submit.prevent v-if="!form_success">
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Stay informed" value="stay-informed"></v-radio>
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Lead the movement locally" value="lead-the-movement-locally"></v-radio>
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Donate" value="donate"></v-radio>
       <v-text-field v-model="email" name="email" label="Your email address"></v-text-field>
       <div class="text-xs-right">
-        <v-btn primary dark large type="submit">JOIN</v-btn>
+        <v-btn primary dark large type="submit"  v-on:click="processData">JOIN</v-btn>
       </div>
-    </form> -->
+    </form>
 
     <v-card flat tile class="primary text-xs-center mt-5" height="20vmin">
       <v-layout fill-height justify-center>
@@ -126,12 +133,35 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      interest: null,
-      email: null
+  var firebase = require('firebase');
+  export default {
+    data () {
+      return {
+        interest: null,
+        email: null,
+        form_error: false,
+        form_success: false
+      }
+    },
+    methods: {
+      processData(event){
+        console.log(this._data.interest);
+        console.log(this._data.email);
+
+        var interest = this._data.interest;
+        var email = this._data.email;
+        var timestamp = Number(new Date());
+
+        firebase.database().ref('contacts/' + timestamp).set({
+            interest: interest,
+            email: email
+        });
+
+        this._data.form_success = true;
+
+
+        return false;
+      }
     }
   }
-}
 </script>
