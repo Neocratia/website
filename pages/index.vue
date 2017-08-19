@@ -24,7 +24,7 @@
       <v-container fluid grid-list-lg>
         <v-layout row align-center>
           <v-flex xs3 lg2>
-            <v-card-media src="http://cdn.onlinewebfonts.com/svg/img_383210.svg" height="16vmin" contain></v-card-media>
+            <v-card-media src="https://cdn.onlinewebfonts.com/svg/img_383210.svg" height="16vmin" contain></v-card-media>
           </v-flex>
           <v-flex xs9 lg10>
             <div class="headline">
@@ -42,7 +42,7 @@
       Thank you! the information has been submitted.
     </v-alert>
     <v-alert error value="true" v-if="form_error">
-      There is an error in the provided information. Validate and try again.
+      There is an error in the provided information. Please validate the information and try again.
     </v-alert>
     <form class="mt-5"  v-on:submit.prevent v-if="!form_success">
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Stay informed" value="stay-informed"></v-radio>
