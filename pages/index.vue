@@ -113,16 +113,23 @@
           <v-card-title primary-title class="white--text display-1">
             Spread the word:
           </v-card-title>
-          <div class="mb-4">
-            <v-btn light class="square">
-              <v-icon x-large primary to="https://www.facebook.com/sharer/sharer.php?u=https://www.neocratia.org">mdi-facebook</v-icon>
+          <div class="mb-4 spread-the-word">
+              
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.neocratia.org/" target="_blank" class="button">
+            <v-btn light class="square" >
+              <v-icon x-large primary>mdi-facebook</v-icon>
             </v-btn>
+            </a>
+            <a href="whatsapp://send?text=Check https%3A//www.neocratia.org/" data-action="share/whatsapp/share" class="button" target="_blank">
             <v-btn light class="square">
               <v-icon x-large primary>mdi-whatsapp</v-icon>
             </v-btn>
+            </a>
+            <a href="https://twitter.com/home?status=Check https%3A//www.neocratia.org/" class="button" target="_blank">
             <v-btn light class="square">
               <v-icon x-large primary>mdi-twitter</v-icon>
             </v-btn>
+            </a>
           </div>
         </v-layout>
       </v-container>
