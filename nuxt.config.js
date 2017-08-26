@@ -22,7 +22,7 @@ module.exports = {
     link: [{
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/neocratia.ico'
+        href: '/neo.ico'
       },
       {
         rel: 'stylesheet',
