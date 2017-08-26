@@ -1,9 +1,9 @@
 <template>
 <v-layout column align-center>
-  <v-flex xs12 sm10 md8 lg6>
+  <v-flex xs12 sm10 md8 lg6 elevation-1>
     <v-card flat tile class="primary text-xs-center" height="40vmin">
       <v-layout fill-height justify-center>
-        <v-card-title primary-title class="white--text display-1">
+        <v-card-title primary-title class="white--text headline">
           Let's reinvent the way our laws are created.
         </v-card-title>
       </v-layout>
@@ -11,12 +11,12 @@
     <v-card flat tile class="secondary text-xs-center" height="40vmin">
       <v-layout fill-height justify-center>
         <v-card-title primary-title class="white--text display-1">
-          VIDEO
+          <div>VIDEO</div>
         </v-card-title>
       </v-layout>
     </v-card>
 
-    <p class="headline text-xs-center mt-5">
+    <p class="subheading text-xs-center mt-5">
       Our goal is to bring honesty to all governments and societies by enabling citizens to make laws and decisions with transparency, accountability, liquid democracy, and thoughtful debate.
     </p>
 
@@ -27,7 +27,7 @@
             <v-card-media src="https://cdn.onlinewebfonts.com/svg/img_383210.svg" height="16vmin" contain></v-card-media>
           </v-flex>
           <v-flex xs9 lg10>
-            <div class="headline">
+            <div class="subheading">
               “Everything is awesome, everything is cool when your part of a team. Everything is awesome!”
             </div>
             <div class="title text-xs-right">Ellie Goulding</div>
@@ -36,7 +36,7 @@
       </v-container>
     </v-card>
 
-    <h2 class="text-xs-center display-1 mt-5">Join the movement</h2>
+    <h2 class="text-xs-center headline mt-5">Join the movement</h2>
 
     <v-alert success value="true" v-if="form_success">
       Thank you! the information has been submitted.
@@ -56,7 +56,7 @@
 
     <v-card flat tile class="primary text-xs-center mt-5" height="20vmin">
       <v-layout fill-height justify-center>
-        <v-card-title primary-title class="white--text display-1">
+        <v-card-title primary-title class="white--text headline">
           Learn more:
         </v-card-title>
       </v-layout>
@@ -110,7 +110,7 @@
     <v-card class="primary white--text mt-5">
       <v-container fluid grid-list-lg>
         <v-layout column align-center justify-center>
-          <v-card-title primary-title class="white--text display-1">
+          <v-card-title primary-title class="white--text title">
             Spread the word:
           </v-card-title>
           <div class="mb-4 spread-the-word">
