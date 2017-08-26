@@ -64,7 +64,7 @@
       </v-layout>
     </v-card>
 
-    <v-expansion-panel class="mt-3">
+    <v-expansion-panel class="my-3 px-2">
       <v-expansion-panel-content>
         <div slot="header">Origins of our movement</div>
         <v-card>
@@ -109,7 +109,7 @@
       </v-expansion-panel-content>
     </v-expansion-panel>
 
-    <v-card class="primary white--text mt-5">
+    <v-card class="primary white--text mt-4">
       <v-container fluid grid-list-lg>
         <v-layout column align-center justify-center>
           <v-card-title primary-title class="white--text title">
