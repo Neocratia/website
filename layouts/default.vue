@@ -5,7 +5,7 @@
     <v-spacer></v-spacer>
   </v-toolbar>
   <main>
-    <v-container fluid>
+    <v-container fluid main-container>
       <nuxt />
     </v-container>
   </main>

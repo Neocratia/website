@@ -5,7 +5,7 @@
   &__title
     font-size: 28px
     font-weight: $font-weights.medium
-    margin-top: -0.25em;
+    margin-top: -0.25em
 
 .expansion-panel
   &__header:after
@@ -20,3 +20,26 @@ button.square
 .spread-the-word
   a.button
     text-decoration: none
+
+
+
+.video-container 
+  position:relative
+  padding-bottom:56.25%
+  padding-top:30px
+  height:0
+  overflow:hidden
+
+
+.video-container iframe, .video-container object, .video-container embed 
+  position:absolute
+  top:0
+  left:0
+  width:100%
+  height:55vmin
+
+.main-container
+  padding: 1px
+  .content-area
+    padding-right: 0px
+    padding-left: 0px

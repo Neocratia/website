@@ -1,28 +1,30 @@
 <template>
 <v-layout column align-center>
-  <v-flex xs12 sm10 md8 lg6 elevation-1>
-    <v-card flat tile class="primary text-xs-center" height="40vmin">
+  <v-flex xs12 sm10 md8 lg6 elevation-1 content-area>
+    <v-card flat tile class="primary text-xs-center" height="55vmin">
       <v-layout fill-height justify-center>
-        <v-card-title primary-title class="white--text headline">
+        <v-card-title primary-title class="white--text headline px-5">
           Let's reinvent the way our laws are created.
         </v-card-title>
       </v-layout>
     </v-card>
-    <v-card flat tile class="secondary text-xs-center" height="40vmin">
+    <v-card flat tile class="secondary text-xs-center" height="55vmin">
       <v-layout fill-height justify-center>
-        <v-card-title primary-title class="white--text display-1">
-          <div>VIDEO</div>
-        </v-card-title>
+      <v-flex xs12>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/ctvlUvN6wSE" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </v-flex>    
       </v-layout>
     </v-card>
 
-    <p class="subheading text-xs-center mt-5">
+    <p class="subheading text-xs-center mt-5 px-5">
       Our goal is to bring honesty to all governments and societies by enabling citizens to make laws and decisions with transparency, accountability, liquid democracy, and thoughtful debate.
     </p>
 
     <v-card class="primary white--text mt-5">
       <v-container fluid grid-list-lg>
-        <v-layout row align-center>
+        <v-layout row align-center px-1 py-5>
           <v-flex xs3 lg2>
             <v-card-media src="https://cdn.onlinewebfonts.com/svg/img_383210.svg" height="16vmin" contain></v-card-media>
           </v-flex>
@@ -44,7 +46,7 @@
     <v-alert error value="true" v-if="form_error">
       There is an error in the provided information. Please validate the information and try again.
     </v-alert>
-    <form class="mt-5"  v-on:submit.prevent v-if="!form_success">
+    <form class="mt-5 px-3"  v-on:submit.prevent v-if="!form_success">
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Stay informed" value="stay-informed"></v-radio>
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Lead the movement locally" value="lead-the-movement-locally"></v-radio>
       <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Donate" value="donate"></v-radio>
@@ -54,7 +56,7 @@
       </div>
     </form>
 
-    <v-card flat tile class="primary text-xs-center mt-5" height="20vmin">
+    <v-card flat tile class="primary text-xs-center mt-5" height="25vmin">
       <v-layout fill-height justify-center>
         <v-card-title primary-title class="white--text headline">
           Learn more:
