@@ -16,13 +16,13 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: 'Nuxt.js project' // FIXME
+        content: 'Let\'s reinvent the way our laws are created.' // FIXME
       }
     ],
     link: [{
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.ico' // FIXME
+        href: '/neocratia.ico'
       },
       {
         rel: 'stylesheet',

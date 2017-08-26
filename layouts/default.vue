@@ -9,9 +9,6 @@
       <nuxt />
     </v-container>
   </main>
-  <v-footer :fixed="false">
-    <span>&copy; 2017</span>
-  </v-footer>
 </v-app>
 </template>
 
@@ -21,8 +18,7 @@ export default {
     return {
       items: [{icon: 'home', title: 'Home', to: '/'},
               {icon: 'people', title: 'About us', to: '/inspire'},
-              {icon: 'mail', title: 'Contact', to: '/contact'},
-              {icon: 'chat', title: 'Join', to: '/join'}
+              {icon: 'mail', title: 'Contact', to: '/contact'}
              ],
     }
   }
