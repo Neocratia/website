@@ -43,18 +43,39 @@
     <v-alert success value="true" v-if="form_success">
       Thank you! the information has been submitted.
     </v-alert>
-    <v-alert error value="true" v-if="form_error">
-      There is an error in the provided information. Please validate the information and try again.
-    </v-alert>
-    <form class="mt-5 px-3"  v-on:submit.prevent v-if="!form_success">
-      <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Stay informed" value="stay-informed"></v-radio>
-      <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Lead the movement locally" value="lead-the-movement-locally"></v-radio>
-      <v-radio v-model="interest" color="primary" class="pt-0 pb-0 title" label="Donate" value="donate"></v-radio>
-      <v-text-field v-model="email" name="email" label="Your email address"></v-text-field>
-      <div class="text-xs-right">
-        <v-btn primary dark large type="submit"  v-on:click="processData">JOIN</v-btn>
-      </div>
-    </form>
+
+
+
+  <v-form v-model="valid" ref="form"  class="mt-5 px-3" v-on:submit.prevent="submit" >
+
+    <v-checkbox
+      label="Stay Informed"
+      v-model="interest"
+      value="stay-informed"
+      :rules="interestRules"
+    ></v-checkbox>
+    <v-checkbox
+      label="Lead the movement locally"
+      v-model="interest"
+      value="lead-movement-locally"
+      :rules="interestRules"
+    ></v-checkbox>
+    <v-checkbox
+      label="Donate"
+      v-model="interest"
+      value="donate"
+      :rules="interestRules"
+    ></v-checkbox>
+    <v-text-field
+      label="E-mail"
+      v-model="email"
+      :rules="emailRules"
+    ></v-text-field>
+
+    <div class="text-xs-right">
+      <v-btn @click="submit" primary dark large type="submit">JOIN</v-btn>
+    </div>
+  </v-form>
 
     <v-card flat tile class="primary text-xs-center mt-5" height="25vmin">
       <v-layout fill-height justify-center>
@@ -143,46 +164,50 @@
 
 <script>
   var firebase = require('firebase');
-
-  function validateEmail(email) {
-    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
-  }
   export default {
     data () {
       return {
-        interest: null,
-        email: null,
-        form_error: false,
-        form_success: false,
-        form_errors: {}
+        valid: false,
+        email: '',
+        emailRules: [
+          (v) => !!v || 'E-mail is required',
+          (v) => /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'E-mail must be valid'
+        ],
+        interestRules: [
+          (v) => v.length>0 || 'Please choose at least one interest'
+        ],
+        stay_informed: false,
+        lead_movement: false,
+        donate: false,
+        interest: [],
+        form_success: false
       }
     },
     methods: {
-      processData(event){
-        console.log(this._data.interest);
-        console.log(this._data.email);
+      submit () {
+        console.log(this.$refs.form.validate());
+        if( this.$refs.form.validate() && !this._data.form_success){
+          console.log(this._data.interest);
+          console.log(this._data.email);
 
-        var interest = this._data.interest;
-        var email = this._data.email;
-        var timestamp = Number(new Date());
+          var interest = this._data.interest;
+          var email = this._data.email;
+          var timestamp = Number(new Date());
 
-        if(!email || !interest || !validateEmail(email)){
-          this._data.form_error = true;
-        }else{
+
           firebase.database().ref('contacts/' + timestamp).set({
               interest: interest,
               email: email
-          });
-
+            });
           this._data.form_success = true;
-          this._data.form_error = false;        
+          this.$refs.form.reset()
         }
 
-
-
-        return false;
+      },
+      clear () {
+        this.$refs.form.reset()
       }
     }
+
   }
 </script>
