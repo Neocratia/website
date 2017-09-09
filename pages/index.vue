@@ -10,11 +10,11 @@
     </v-card>
     <v-card flat tile class="secondary text-xs-center" height="55vmin">
       <v-layout fill-height justify-center>
-      <v-flex xs12>
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/ctvlUvN6wSE" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </v-flex>    
+        <v-flex xs12>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/ctvlUvN6wSE" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </v-flex>
       </v-layout>
     </v-card>
 
@@ -46,36 +46,17 @@
 
 
 
-  <v-form v-model="valid" ref="form"  class="mt-5 px-3" v-on:submit.prevent="submit" >
+    <v-form v-model="valid" ref="form" class="mt-5 px-3" v-on:submit.prevent="submit">
 
-    <v-checkbox
-      label="Stay Informed"
-      v-model="interest"
-      value="stay-informed"
-      :rules="interestRules"
-    ></v-checkbox>
-    <v-checkbox
-      label="Lead the movement locally"
-      v-model="interest"
-      value="lead-movement-locally"
-      :rules="interestRules"
-    ></v-checkbox>
-    <v-checkbox
-      label="Donate"
-      v-model="interest"
-      value="donate"
-      :rules="interestRules"
-    ></v-checkbox>
-    <v-text-field
-      label="E-mail"
-      v-model="email"
-      :rules="emailRules"
-    ></v-text-field>
+      <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed" :rules="interestRules"></v-checkbox>
+      <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally" :rules="interestRules"></v-checkbox>
+      <v-checkbox label="Donate" v-model="interest" value="donate" :rules="interestRules"></v-checkbox>
+      <v-text-field label="E-mail" v-model="email" :rules="emailRules"></v-text-field>
 
-    <div class="text-xs-right">
-      <v-btn @click="submit" primary dark large type="submit">JOIN</v-btn>
-    </div>
-  </v-form>
+      <div class="text-xs-right">
+        <v-btn @click="submit" primary dark large type="submit">JOIN</v-btn>
+      </div>
+    </v-form>
 
     <v-card flat tile class="primary text-xs-center mt-5" height="25vmin">
       <v-layout fill-height justify-center>
@@ -85,50 +66,52 @@
       </v-layout>
     </v-card>
 
-    <v-expansion-panel class="my-3 px-2">
-      <v-expansion-panel-content>
-        <div slot="header">Origins of our movement</div>
-        <v-card>
-          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
-        </v-card>
-      </v-expansion-panel-content>
-      <v-expansion-panel-content>
-        <div slot="header">Our values and premises</div>
-        <v-card>
-          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
-        </v-card>
-      </v-expansion-panel-content>
-      <v-expansion-panel-content>
-        <div slot="header">How laws and decisions are made</div>
-        <v-card>
-          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
-        </v-card>
-      </v-expansion-panel-content>
-      <v-expansion-panel-content>
-        <div slot="header">Our roadmap</div>
-        <v-card>
-          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
-        </v-card>
-      </v-expansion-panel-content>
-      <v-expansion-panel-content>
-        <div slot="header">Volunteering</div>
-        <v-card>
-          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
-        </v-card>
-      </v-expansion-panel-content>
-      <v-expansion-panel-content>
-        <div slot="header">Donating</div>
-        <v-card>
-          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
-        </v-card>
-      </v-expansion-panel-content>
-      <v-expansion-panel-content>
-        <div slot="header">Our team</div>
-        <v-card>
-          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
-        </v-card>
-      </v-expansion-panel-content>
-    </v-expansion-panel>
+    <div class="my-3 mx-3">
+      <v-expansion-panel>
+        <v-expansion-panel-content ripple>
+          <div slot="header">Origins of our movement</div>
+          <v-card>
+            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+        <v-expansion-panel-content ripple>
+          <div slot="header">Our values and premises</div>
+          <v-card>
+            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+        <v-expansion-panel-content ripple>
+          <div slot="header">How laws and decisions are made</div>
+          <v-card>
+            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+        <v-expansion-panel-content ripple>
+          <div slot="header">Our roadmap</div>
+          <v-card>
+            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+        <v-expansion-panel-content ripple>
+          <div slot="header">Volunteering</div>
+          <v-card>
+            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+        <v-expansion-panel-content ripple>
+          <div slot="header">Donating</div>
+          <v-card>
+            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+        <v-expansion-panel-content ripple>
+          <div slot="header">Our team</div>
+          <v-card>
+            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </div>
 
     <v-card class="primary white--text mt-4">
       <v-container fluid grid-list-lg>
@@ -137,21 +120,21 @@
             Spread the word:
           </v-card-title>
           <div class="mb-4 spread-the-word">
-              
+
             <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.neocratia.org/" target="_blank" class="button">
-            <v-btn light class="square" >
-              <v-icon x-large primary>mdi-facebook</v-icon>
-            </v-btn>
+              <v-btn light class="square">
+                <v-icon x-large primary>mdi-facebook</v-icon>
+              </v-btn>
             </a>
             <a href="https://api.whatsapp.com/send?text=Check https%3A//www.neocratia.org/" data-action="share/whatsapp/share" class="button" target="_blank">
-            <v-btn light class="square">
-              <v-icon x-large primary>mdi-whatsapp</v-icon>
-            </v-btn>
+              <v-btn light class="square">
+                <v-icon x-large primary>mdi-whatsapp</v-icon>
+              </v-btn>
             </a>
             <a href="https://twitter.com/home?status=Check https%3A//www.neocratia.org/" class="button" target="_blank">
-            <v-btn light class="square">
-              <v-icon x-large primary>mdi-twitter</v-icon>
-            </v-btn>
+              <v-btn light class="square">
+                <v-icon x-large primary>mdi-twitter</v-icon>
+              </v-btn>
             </a>
           </div>
         </v-layout>
@@ -163,51 +146,51 @@
 </template>
 
 <script>
-  var firebase = require('firebase');
-  export default {
-    data () {
-      return {
-        valid: false,
-        email: '',
-        emailRules: [
-          (v) => !!v || 'E-mail is required',
-          (v) => /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'E-mail must be valid'
-        ],
-        interestRules: [
-          (v) => v.length>0 || 'Please choose at least one interest'
-        ],
-        stay_informed: false,
-        lead_movement: false,
-        donate: false,
-        interest: [],
-        form_success: false
-      }
-    },
-    methods: {
-      submit () {
-        console.log(this.$refs.form.validate());
-        if( this.$refs.form.validate() && !this._data.form_success){
-          console.log(this._data.interest);
-          console.log(this._data.email);
+var firebase = require('firebase');
+export default {
+  data() {
+    return {
+      valid: false,
+      email: '',
+      emailRules: [
+        (v) => !!v || 'E-mail is required',
+        (v) => /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'E-mail must be valid'
+      ],
+      interestRules: [
+        (v) => v.length > 0 || 'Please choose at least one interest'
+      ],
+      stay_informed: false,
+      lead_movement: false,
+      donate: false,
+      interest: [],
+      form_success: false
+    }
+  },
+  methods: {
+    submit() {
+      console.log(this.$refs.form.validate());
+      if (this.$refs.form.validate() && !this._data.form_success) {
+        console.log(this._data.interest);
+        console.log(this._data.email);
 
-          var interest = this._data.interest;
-          var email = this._data.email;
-          var timestamp = Number(new Date());
+        var interest = this._data.interest;
+        var email = this._data.email;
+        var timestamp = Number(new Date());
 
 
-          firebase.database().ref('contacts/' + timestamp).set({
-              interest: interest,
-              email: email
-            });
-          this._data.form_success = true;
-          this.$refs.form.reset()
-        }
-
-      },
-      clear () {
+        firebase.database().ref('contacts/' + timestamp).set({
+          interest: interest,
+          email: email
+        });
+        this._data.form_success = true;
         this.$refs.form.reset()
       }
-    }
 
+    },
+    clear() {
+      this.$refs.form.reset()
+    }
   }
+
+}
 </script>
