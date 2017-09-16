@@ -40,18 +40,12 @@
 
     <h2 class="text-xs-center headline mt-5">Join the movement</h2>
 
-    <v-alert success value="true" v-if="form_success">
-      Thank you! the information has been submitted.
-    </v-alert>
-
-
-
     <v-form v-model="valid" ref="form" class="mt-5 px-3" v-on:submit.prevent="submit">
 
       <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed" :rules="interestRules"></v-checkbox>
       <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally" :rules="interestRules"></v-checkbox>
       <v-checkbox label="Donate" v-model="interest" value="donate" :rules="interestRules"></v-checkbox>
-      <v-text-field label="E-mail" v-model="email" :rules="emailRules"></v-text-field>
+      <v-text-field label="E-mail" v-model="email" :rules="emailRules" type="email"></v-text-field>
 
       <div class="text-xs-right">
         <v-btn @click="submit" primary dark large type="submit">JOIN</v-btn>
@@ -142,6 +136,45 @@
     </v-card>
 
   </v-flex>
+
+  <v-btn primary dark @click.native.stop="dialog = true">Open Dialog</v-btn>
+  <v-dialog v-model="dialog" persistent>
+    <v-card>
+      <v-card-title>
+      </v-card-title>
+      <v-card-text class="title text-xs-center">We’ll keep you posted. As soon as there are enough people interested in your area, we'll help you lead or become part of your own local revolution.</v-card-text>
+      <v-container fluid grid-list-lg class="primary white--text mt-4">
+        <v-layout column align-center justify-center>
+          <v-card-title primary-title class="white--text title">
+            Spread the word:
+          </v-card-title>
+          <div class="mb-4 spread-the-word">
+
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.neocratia.org/" target="_blank" class="button">
+              <v-btn light class="square">
+                <v-icon x-large primary>mdi-facebook</v-icon>
+              </v-btn>
+            </a>
+            <a href="https://api.whatsapp.com/send?text=Check https%3A//www.neocratia.org/" data-action="share/whatsapp/share" class="button" target="_blank">
+              <v-btn light class="square">
+                <v-icon x-large primary>mdi-whatsapp</v-icon>
+              </v-btn>
+            </a>
+            <a href="https://twitter.com/home?status=Check https%3A//www.neocratia.org/" class="button" target="_blank">
+              <v-btn light class="square">
+                <v-icon x-large primary>mdi-twitter</v-icon>
+              </v-btn>
+            </a>
+          </div>
+        </v-layout>
+      </v-container>
+      <v-card-actions>
+        <v-spacer></v-spacer>
+        <v-btn class="primary--text darken-1" flat="flat" @click.native.stop="dialog = false">CLOSE</v-btn>
+      </v-card-actions>
+    </v-card>
+  </v-dialog>
+
 </v-layout>
 </template>
 
@@ -163,7 +196,8 @@ export default {
       lead_movement: false,
       donate: false,
       interest: [],
-      form_success: false
+      form_success: false,
+      dialog: false
     }
   },
   methods: {
@@ -183,6 +217,7 @@ export default {
           email: email
         });
         this._data.form_success = true;
+        this._data.dialog =true;
         this.$refs.form.reset()
       }
 
