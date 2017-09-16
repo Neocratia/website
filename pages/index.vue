@@ -42,9 +42,9 @@
 
     <v-form v-model="valid" ref="form" class="mt-5 px-3" v-on:submit.prevent="submit">
 
-      <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed" :rules="interestRules" checked="checked"></v-checkbox>
-      <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally" :rules="interestRules"></v-checkbox>
-      <v-checkbox label="Donate" v-model="interest" value="donate" :rules="interestRules"></v-checkbox>
+      <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed"></v-checkbox>
+      <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally" ></v-checkbox>
+      <v-checkbox label="Donate" v-model="interest" value="donate"></v-checkbox>
       <v-text-field label="E-mail" v-model="email" :rules="emailRules"></v-text-field>
 
       <div class="text-xs-right">
@@ -137,7 +137,6 @@
 
   </v-flex>
 
-  <v-btn primary dark @click.native.stop="dialog = true">Open Dialog</v-btn>
   <v-dialog v-model="dialog" persistent>
     <v-card>
       <v-card-title>
@@ -196,7 +195,8 @@ export default {
       lead_movement: false,
       donate: false,
       interest: [],
-      dialog: false
+      dialog: false,
+      interest: ['stay-informed']
     }
   },
   methods: {
@@ -219,6 +219,12 @@ export default {
     },
     clear() {
       this.$refs.form.reset()
+    },
+    checkboxChange(element){
+      console.log(element);
+      // if(element.length == 0){
+      this.$refs.form.validate()
+      // }
     }
   }
 
