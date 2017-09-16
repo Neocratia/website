@@ -40,7 +40,7 @@
 
     <h2 class="text-xs-center headline mt-5">Join the movement</h2>
 
-    <v-form v-model="valid" ref="form" class="mt-5 px-3" v-on:submit.prevent="submit">
+    <v-form v-model="valid" ref="form" class="mt-5 px-4" v-on:submit.prevent="submit">
 
       <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed"></v-checkbox>
       <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally" ></v-checkbox>
