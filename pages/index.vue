@@ -45,7 +45,7 @@
       <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed"></v-checkbox>
       <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally" ></v-checkbox>
       <v-checkbox label="Donate" v-model="interest" value="donate"></v-checkbox>
-      <v-text-field label="E-mail" v-model="email" :rules="emailRules"></v-text-field>
+      <v-text-field label="Your email address" v-model="email" :rules="emailRules"></v-text-field>
 
       <div class="text-xs-right">
         <v-btn @click="submit" primary dark large type="submit">JOIN</v-btn>
@@ -107,7 +107,7 @@
       </v-expansion-panel>
     </div>
 
-    <v-card class="primary white--text mt-4">
+    <v-card class="primary white--text mt-4 footer-card">
       <v-container fluid grid-list-lg>
         <v-layout column align-center justify-center>
           <v-card-title primary-title class="white--text title">
@@ -185,7 +185,7 @@ export default {
       valid: false,
       email: '',
       emailRules: [
-        (v) => !!v || 'E-mail is required',
+        (v) => !!v || 'Your email address is required',
         (v) => /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'E-mail must be valid'
       ],
       interestRules: [
