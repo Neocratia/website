@@ -45,7 +45,7 @@
       <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed" :rules="interestRules"></v-checkbox>
       <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally" :rules="interestRules"></v-checkbox>
       <v-checkbox label="Donate" v-model="interest" value="donate" :rules="interestRules"></v-checkbox>
-      <v-text-field label="E-mail" v-model="email" :rules="emailRules" type="email"></v-text-field>
+      <v-text-field label="E-mail" v-model="email" :rules="emailRules" required></v-text-field>
 
       <div class="text-xs-right">
         <v-btn @click="submit" primary dark large type="submit">JOIN</v-btn>
@@ -190,7 +190,7 @@ export default {
         (v) => /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'E-mail must be valid'
       ],
       interestRules: [
-        (v) => v.length > 0 || 'Please choose at least one interest'
+        (v) => v.length > 0 || 'Please choose an option'
       ],
       stay_informed: false,
       lead_movement: false,
