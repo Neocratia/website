@@ -42,10 +42,10 @@
 
     <v-form v-model="valid" ref="form" class="mt-5 px-3" v-on:submit.prevent="submit">
 
-      <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed" :rules="interestRules"></v-checkbox>
+      <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed" :rules="interestRules" checked="checked"></v-checkbox>
       <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally" :rules="interestRules"></v-checkbox>
       <v-checkbox label="Donate" v-model="interest" value="donate" :rules="interestRules"></v-checkbox>
-      <v-text-field label="E-mail" v-model="email" :rules="emailRules" required></v-text-field>
+      <v-text-field label="E-mail" v-model="email" :rules="emailRules"></v-text-field>
 
       <div class="text-xs-right">
         <v-btn @click="submit" primary dark large type="submit">JOIN</v-btn>
@@ -192,20 +192,16 @@ export default {
       interestRules: [
         (v) => v.length > 0 || 'Please choose an option'
       ],
-      stay_informed: false,
+      stay_informed: true,
       lead_movement: false,
       donate: false,
       interest: [],
-      form_success: false,
       dialog: false
     }
   },
   methods: {
     submit() {
-      console.log(this.$refs.form.validate());
-      if (this.$refs.form.validate() && !this._data.form_success) {
-        console.log(this._data.interest);
-        console.log(this._data.email);
+      if (this.$refs.form.validate()) {
 
         var interest = this._data.interest;
         var email = this._data.email;
@@ -216,7 +212,6 @@ export default {
           interest: interest,
           email: email
         });
-        this._data.form_success = true;
         this._data.dialog =true;
         this.$refs.form.reset()
       }
