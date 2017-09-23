@@ -37,7 +37,7 @@
         </v-layout>
       </v-container>
     </v-card>
-
+    <a name="join"></a>
     <h2 class="text-xs-center headline mt-5">Join the movement</h2>
 
     <v-form v-model="valid" ref="form" class="mt-5 px-4" v-on:submit.prevent="submit">
@@ -73,7 +73,17 @@
         <v-expansion-panel-content ripple>
           <div slot="header">How initiatives are proposed</div>
           <v-card>
-            <v-card-text>PENDING</v-card-text>
+            <v-card-text>
+              <p>We believe that all citizens should be able to propose initiatives. When a community uses Neocratia, all people eligible to vote at any given jurisdiction are able to propose initiatives:</p>
+              <ol>
+                <li>First, initiatives are submitted using an electronic platform.</li>
+                <li>They are then debated.</li>
+                <li>If a significant number of citizens shows interest in the idea, a law proposal can begin to be drafted.</li>
+                <li>The citizen that initially proposed the idea can then invite other citizens to help draft the law proposal. They use an online collaboration tool to do so (similar to Google Docs and Wikipedia). Citizens can also discuss the draft as a whole or different parts of it. A log of changes is kept.</li>
+                <li>When the citizen that initially proposed the idea decides it’s time to do so, the law proposal is scheduled for voting.</li>
+              </ol>
+              <p>To learn more, view how decisions are made.</p>
+            </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
@@ -201,7 +211,7 @@
           <div slot="header">How to stay informed</div>
           <v-card>
             <v-card-text>
-            To stay informed, click here.
+            To stay informed, <a href="#join">click here</a>.
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
@@ -209,7 +219,7 @@
           <div slot="header">How to volunteer</div>
           <v-card>
             <v-card-text>
-            To volunteer, click here.
+            To volunteer, <a href="#join">click here</a>.
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
@@ -217,7 +227,7 @@
           <div slot="header">Press inquiries</div>
           <v-card>
             <v-card-text>
-            For press inquiries, contact press@neocratia.org
+            For press inquiries, contact <a href="mailto:press@neocratia.org">press@neocratia.org</a>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
