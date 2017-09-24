@@ -66,7 +66,13 @@
           <div slot="header">How it works</div>
           <v-card>
             <v-card-text>
-              At Neocratia, we believe that democracies must be honest, efficient, and corruption-free. To learn how Neocratia achieves that goal, watch this two-minute video: <a href="https://drive.google.com/drive/u/0/folders/0B9dbEKIL5bIxOEpYVGZIRnVMaTQ" target="_blank">https://drive.google.com/drive/u/0/folders/0B9dbEKIL5bIxOEpYVGZIRnVMaTQ</a> 
+          <p>
+              At Neocratia, we believe that democracies must be honest, efficient, and corruption-free. To learn how Neocratia achieves that goal, watch this two-minute video:
+          </p>
+
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/ctvlUvN6wSE" frameborder="0" allowfullscreen></iframe>
+          </div> 
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
@@ -170,7 +176,7 @@
           <div slot="header">Origins of Neocratia</div>
           <v-card>
             <v-card-text>
-            To learn about the origins of Neocratia, check out this blog post.
+            To learn about the origins of Neocratia, check out this <a href="https://medium.com/democrracy-blog/if-democracy-were-to-be-invented-today-what-would-it-look-like-8cdb9324ad4d" target="_blank">blog post</a>.
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
