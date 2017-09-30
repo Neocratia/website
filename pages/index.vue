@@ -1,10 +1,11 @@
 <template>
 <v-layout column align-center>
   <v-flex xs12 sm10 md8 lg6 elevation-1 content-area>
-    <v-card flat tile class="primary text-xs-center" height="55vmin">
+    <v-card flat tile class="primary text-xs-center" height="25vmin">
       <v-layout fill-height justify-center>
         <v-card-title primary-title class="white--text headline px-5">
           Let's reinvent the way our laws are created.
+          <a name="video"></a>
         </v-card-title>
       </v-layout>
     </v-card>
@@ -12,7 +13,7 @@
       <v-layout fill-height justify-center>
         <v-flex xs12>
           <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/ctvlUvN6wSE" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/qnqz5fpJH0M" frameborder="0" allowfullscreen></iframe>
           </div>
         </v-flex>
       </v-layout>
@@ -67,12 +68,9 @@
           <v-card>
             <v-card-text>
           <p>
-              At Neocratia, we believe that democracies must be honest, efficient, and corruption-free. To learn how Neocratia achieves that goal, watch this two-minute video:
+              At Neocratia, we believe that democracies must be honest, efficient, and corruption-free. To learn how Neocratia achieves that goal, watch this <a href="#video">two-minute video</a>
           </p>
 
-          <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/ctvlUvN6wSE" frameborder="0" allowfullscreen></iframe>
-          </div> 
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
