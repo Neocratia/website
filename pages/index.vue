@@ -41,14 +41,14 @@
     <a name="join"></a>
     <h2 class="text-xs-center headline mt-5">Join the movement</h2>
 
-    <v-form v-model="valid" ref="form" class="mt-5 px-4" v-on:submit.prevent="submit">
+    <v-form v-model="valid" ref="form" class="mt-5 px-4 join-form" v-on:submit.prevent="submit">
 
       <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed"></v-checkbox>
       <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally" ></v-checkbox>
       <v-checkbox label="Donate" v-model="interest" value="donate"></v-checkbox>
       <v-text-field label="Your email address" v-model="email" :rules="emailRules"></v-text-field>
 
-      <div class="text-xs-right">
+      <div class="text-xs-center">
         <v-btn @click="submit" primary dark large type="submit">JOIN</v-btn>
       </div>
     </v-form>
