@@ -1,8 +1,8 @@
 <template>
 <v-layout column align-center>
   <v-flex xs12 sm10 md8 lg6 elevation-1 content-area>
-    <v-card flat tile class="primary text-xs-center" height="25vmin">
-      <v-layout fill-height justify-center>
+    <v-card flat tile class="primary text-xs-center">
+      <v-layout fill-height justify-center py-5>
         <v-card-title primary-title class="white--text headline px-5">
           Let's reinvent the way our laws are created.
           <a name="video"></a>
@@ -124,7 +124,9 @@
               </p>
               <p>Representatives have a voting weight. The voting weight is the sum of all the votes having been delegated to a given representative plus the vote of the representative her/himself. Representatives can also chose their own representatives. When representatives opt not to vote for a law proposal directly, representatives of representatives vote or delegate their vote on their behalf.
               </p>
-              <img src="~/assets/delegation_graph.png" class="img-responsive">
+              <div class="text-center">
+                <img src="~/assets/delegation_graph.png" class="img-responsive">
+              </div>
               <p>With Neocratia all citizen eligible to vote at any given jurisdiction can opt to allow others to chose them as their representatives. The only requirement is agreeing to making all of her/his votes transparent.</p>
               <p>With Neocratia all citizen eligible to vote at any given jurisdiction can opt to allow others to chose them as their representatives. The only requirement is agreeing to making all of her/his votes transparent.</p>
             </v-card-text>
