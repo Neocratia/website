@@ -1,5 +1,7 @@
-.page
-  @extend .fade-transition
+@require '_variables.styl'
+
+// .page
+//   @extend .fade-transition
 
 .toolbar
   &__title
@@ -75,3 +77,15 @@ button.square
 .expansion-panel__body
   div.card__text
     padding-left: 23px;
+
+.carousel
+  height: 320px;
+
+.expansion-panel__body .card__text p:last-child {
+  margin-bottom: 0;
+}
+
+.expansion-panel__body .card__text ol:not(last-child),
+.expansion-panel__body .card__text ul:not(last-child) {
+  margin-bottom: 1em;
+}

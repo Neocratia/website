@@ -54,6 +54,9 @@ module.exports = {
   css: [{
     src: '~assets/style/app.styl',
     lang: 'styl'
+  }, {
+    src: '~assets/style/custom.styl',
+    lang: 'styl'
   }],
   env: {
     firebase_url: process.env.FIREBASE_URL

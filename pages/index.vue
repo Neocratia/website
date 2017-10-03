@@ -24,10 +24,10 @@
     </p>
 
     <v-card class="primary white--text mt-5">
-      <v-carousel>
+      <v-carousel hide-controls>
         <v-carousel-item src="">
           <v-container fluid grid-list-lg>
-            <v-layout row align-center px-5 py-5>
+            <v-layout row align-center px-5>
               <v-flex xs3 lg2>
                 <v-avatar size="100%"><img src="/img/juanjose.jpg" /></v-avatar>
               </v-flex>
@@ -42,7 +42,7 @@
         </v-carousel-item>
         <v-carousel-item src="">
           <v-container fluid grid-list-lg>
-            <v-layout row align-center px-5 py-5>
+            <v-layout row align-center px-5>
               <v-flex xs3 lg2>
                 <v-avatar size="100%"><img src="/img/torrenegra.jpg" /></v-avatar>
               </v-flex>
@@ -57,7 +57,7 @@
         </v-carousel-item>
         <v-carousel-item src="">
           <v-container fluid grid-list-lg>
-            <v-layout row align-center px-5 py-5>
+            <v-layout row align-center px-5>
               <v-flex xs3 lg2>
                 <v-avatar size="100%"><img src="/img/helena.jpg" /></v-avatar>
               </v-flex>
@@ -88,7 +88,7 @@
       </div>
     </v-form>
 
-    <v-card flat tile class="primary text-xs-center mt-5" height="25vmin">
+    <v-card flat tile class="primary text-xs-center mt-5 pt-2">
       <v-layout fill-height justify-center>
         <v-card-title primary-title class="white--text headline">
           Learn more:
@@ -96,24 +96,25 @@
       </v-layout>
     </v-card>
 
-    <div class="my-3 mx-3">
-      <v-expansion-panel>
+    <div class="py-3 px-3 primary">
+      <v-expansion-panel class="mb-3">
         <v-expansion-panel-content ripple>
           <div slot="header">How it works</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               <p>
                 At Neocratia, we believe that democracies must be honest, efficient, and corruption-free. To learn how Neocratia achieves that goal, watch this <a href="#video">two-minute video</a>
               </p>
-
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
           <div slot="header">How initiatives are proposed</div>
           <v-card>
-            <v-card-text>
-              <p>We believe that all citizens should be able to propose initiatives. When a community uses Neocratia, all people eligible to vote at any given jurisdiction are able to propose initiatives:</p>
+            <v-card-text class="grey lighten-4">
+              <p>
+                We believe that all citizens should be able to propose initiatives. When a community uses Neocratia, all people eligible to vote at any given jurisdiction are able to propose initiatives:
+              </p>
               <ol>
                 <li>First, initiatives are submitted using an electronic platform.</li>
                 <li>They are then debated.</li>
@@ -129,7 +130,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">How ideas are debated</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               <p>We are tired of stupid political rhetoric and crave thoughtful debate. Neocratia tries to bring honesty to governments and societies through thoughtful debate.</p>
               <p>With Neocratia, all people eligible to vote in any given jurisdiction can be part of the conversation. Conversations happen online via an electronic platform. Conversation can be centered about a proposal or any other topic relevant to the
                 group. Citizens can upvote or downvote the comments of others. The comments that people have agreed with the most become more visible by raising to the top of threads. All conversation and comments are transparent. Upvotes and downvotes
@@ -140,7 +141,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">How decisions are made</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               <p>We believe that laws and decisions should be made with transparency and not behind closed doors. With Neocratia, decisions are made by voting on laws proposals. Laws can be new or can replace existing laws. Voting happens online via an electronic
                 platform. Law proposals are scheduled for voting with at least 48 hours of head time. Voting lasts for 72 hours. The results are then made public. </p>
 
@@ -164,7 +165,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">How representatives are chosen</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               <p>We believe that citizens should be able to vote directly for laws or delegate their vote to others. With Neocratia, each citizen eligible to vote in any given jurisdiction can chose representatives using an electronic platform. When citizens
                 opt not to vote for a law proposal directly, representatives vote or delegate their vote on their behalf. Citizens can chose zero, one, or more representatives. When choosing two or more representatives, the vote delegation is split in
                 equal parts. For example, if a citizen chooses four representatives, each representative will be able to vote or delegate 25% of the vote of the citizen.
@@ -183,7 +184,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">How representatives are scrutinized</div>
           <v-card>
-            <v-card-text>We believe that the decisions that affect our everyday lives must never be taken behind closed doors. Thus, the actions and votes of representatives should be visible to others. At Neocratia, representatives have public profiles on an electronic
+            <v-card-text class="grey lighten-4">We believe that the decisions that affect our everyday lives must never be taken behind closed doors. Thus, the actions and votes of representatives should be visible to others. At Neocratia, representatives have public profiles on an electronic
               platform. This allows citizens to learn how their representatives have voted in law proposals, in debates what comments representatives have upvoted and downvoted, whether the representatives has chosen representatives of her/his own, and
               the voting weight.</v-card-text>
           </v-card>
@@ -191,7 +192,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">Neocratia and its electronic platform</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               <p>The values and principles of Neocratia require a reliable and safe electronic platform where thoughtful ideas are debated, votes are cast privately, representatives are scrutinized, and decisions are made with transparency.</p>
               <p>We are currently building one option, Neocratium, and we encourage others to build alternative platforms as well. We can help with advice. Neocratium will allow communities of any size and any type, even non-political ones, to manage their
                 own democracies. Neocratium is an open source platform currently under development. When ready, groups will be able to quickly create a community using the hosted version, or download the source code and install their own instance of Neocratium
@@ -207,7 +208,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">Our roadmap</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               <p>Our roadmap is simple, yet ambitious. In summary:</p>
               <ol>
                 <li>First, we are identifying several communities all over the world ripe for launching a successful campaign to get enough seats in their local legislative body.</li>
@@ -233,7 +234,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">Origins of Neocratia</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               To learn about the origins of Neocratia, check out this <a href="https://medium.com/democrracy-blog/if-democracy-were-to-be-invented-today-what-would-it-look-like-8cdb9324ad4d" target="_blank">blog post</a>.
             </v-card-text>
           </v-card>
@@ -241,7 +242,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">How Neocratia is funded</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               <p>Neocratia is a non-profit effort that depends on the donations of individuals like you. We are tired of big money and corporations influencing politics. Because of that, at Neocratia we only receive donations from individuals. An even then,
                 we limit the size of the donations to avoid depending to much on one single person. You can donate as little as $1 per month through Patreon or Open Collective. </p>
               <p>50% of your donation goes towards supporting your local movement. The other 50% goes towards bring Neocratia to all communities on Earth.</p>
@@ -251,7 +252,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">Our values</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               <ul>
                 <li>Honesty</li>
                 <li>Transparency</li>
@@ -265,14 +266,14 @@
         <v-expansion-panel-content ripple>
           <div slot="header">How Neocratia is structured</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               <p>Neocratia is both a global movement with autonomous local chapters. Locally, Neocratia can take different legal structures depending on local laws and the requirements to receive donations and have candidates elected to public office. It
                 may be an NGO, a political party, or a movement that doesn’t have a legal structure.</p>
               <p>Globally, Neocratia is governed by a board of directors that elects an executive director.</p>
               <strong>Project leader</strong>
               <br>
               <strong>Alexander Torrenegra</strong>
-              <br> Responsible for:
+              <br>Responsible for:
               <ul>
                 <li>Pursuing the vision.</li>
                 <li>Making major decisions.</li>
@@ -283,29 +284,29 @@
               </ul>
               <p></p>
               <strong>Board of directors</strong>
-              <p>Responsible for:</p>
+              <br>Responsible for:
               <ul>
                 <li>Determining the vision of the project.</li>
                 <li>Electing the project leader.</li>
                 <li>Determining who can be a member of the board.</li>
                 <li>Determining the voting weight for each member of the board.</li>
               </ul>
-              <p>Eligibility for being a member of the board:</p>
+              Eligibility for being a member of the board:
               <ul>
                 <li>Elected by the majority vote by the board of directors.</li>
               </ul>
-              <p>Voting weight for each director:</p>
+              Voting weight for each director:
               <ul>
                 <li>Each director will earn one vote for each hour of volunteering work after approval by the rest of the board of a directors.</li>
                 <li>Each director will lose 50% of their votes after 90 days of not getting new votes via rule #1 above.</li>
                 <li>Each director will lose 100% of their votes and their status as member of the board after 365 days of not getting new votes via rule #1 above.</li>
               </ul>
               <strong>Volunteers</strong>
-              <p>Responsible for:</p>
+              <br>Responsible for:
               <ul>
                 <li>Following the directives of the project leader.</li>
               </ul>
-              <p>Eligibility:</p>
+              Eligibility:
               <ul>
                 <li>Everyone.</li>
               </ul>
@@ -315,7 +316,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">How to stay informed</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               To stay informed, <a href="#join">click here</a>.
             </v-card-text>
           </v-card>
@@ -323,7 +324,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">How to volunteer</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               To volunteer, <a href="#join">click here</a>.
             </v-card-text>
           </v-card>
@@ -331,7 +332,7 @@
         <v-expansion-panel-content ripple>
           <div slot="header">Press inquiries</div>
           <v-card>
-            <v-card-text>
+            <v-card-text class="grey lighten-4">
               For press inquiries, contact <a href="mailto:press@neocratia.org">press@neocratia.org</a>
             </v-card-text>
           </v-card>
@@ -339,10 +340,10 @@
       </v-expansion-panel>
     </div>
 
-    <v-card class="primary white--text mt-4 footer-card">
+    <v-card class="mt-4 footer-card">
       <v-container fluid grid-list-lg>
         <v-layout column align-center justify-center>
-          <v-card-title primary-title class="white--text title">
+          <v-card-title primary-title class="title">
             Spread the word:
           </v-card-title>
           <div class="mb-4 spread-the-word">
