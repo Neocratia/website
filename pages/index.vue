@@ -9,7 +9,7 @@
         </v-card-title>
       </v-layout>
     </v-card>
-    <v-card flat tile class="secondary text-xs-center" height="55vmin">
+    <v-card flat tile class="secondary text-xs-center">
       <v-layout fill-height justify-center>
         <v-flex xs12>
           <div class="video-container">
