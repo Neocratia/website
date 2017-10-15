@@ -11,7 +11,7 @@
           <v-layout row wrap justify-center align-center>
             <v-flex class="xs6"></v-flex>
             <v-flex class="xs6">
-            <h4 class="white--text">Let’s upgrade the way our laws are created</h4>
+            <h3 class="white--text">Let’s upgrade the way our laws are created</h3>
             </v-flex>
           </v-layout>
         </v-parallax>
@@ -38,7 +38,7 @@
               </v-flex>
               <v-flex xs9 lg10>
                 <div class="subheading">
-                  “I joined Neocratia because I’m tired of widespread corruption governing our societies. I believe it’s about time that we do something about it.”
+                  “I’m tired of widespread corruption governing our societies. I believe it’s about time that we do something about it.”
                 </div>
                 <div class="body-2 text-xs-right mt-2">Juan José Roesel, Volunteer</div>
               </v-flex>
