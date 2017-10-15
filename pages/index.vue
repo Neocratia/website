@@ -7,7 +7,7 @@
 <!--           <div class="video-container">
             <iframe src="https://www.youtube.com/embed/qnqz5fpJH0M" frameborder="0" allowfullscreen></iframe>
           </div> -->
-        <v-parallax src="/img/homebg.jpg" height="557" class="scrim main-image">
+        <v-parallax src="/img/neocratia-main.jpg" height="590" class="scrim main-image">
           <v-layout row wrap justify-center align-center>
             <v-flex class="xs6"></v-flex>
             <v-flex class="xs6">
