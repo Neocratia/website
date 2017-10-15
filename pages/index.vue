@@ -1,14 +1,6 @@
 <template>
 <v-layout column align-center>
   <v-flex xs12 sm10 md8 lg6 elevation-1 content-area>
-    <v-card flat tile class="primary text-xs-center">
-      <v-layout fill-height justify-center py-5>
-        <v-card-title primary-title class="white--text headline px-5">
-          Let's reinvent the way our laws are created.
-          <a name="video"></a>
-        </v-card-title>
-      </v-layout>
-    </v-card>
     <v-card flat tile class="secondary text-xs-center">
       <v-layout fill-height justify-center>
         <v-flex xs12>
@@ -16,12 +8,12 @@
             <iframe src="https://www.youtube.com/embed/qnqz5fpJH0M" frameborder="0" allowfullscreen></iframe>
           </div> -->
         <v-parallax src="/img/homebg.jpg" height="557">
-<!--           <v-layout row wrap justify-center align-center>
+          <v-layout row wrap justify-center align-center>
             <v-flex class="xs6"></v-flex>
             <v-flex class="xs6">
-            <h4 class="white--text">Let's upgrade the way our laws are created</h4>
+            <h4 class="white--text">Let's reinvent the way our laws are created.</h4>
             </v-flex>
-          </v-layout> -->
+          </v-layout>
         </v-parallax>
         </v-flex>
       </v-layout>
