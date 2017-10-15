@@ -463,6 +463,14 @@ export default {
       // if(element.length == 0){
       this.$refs.form.validate()
       // }
+    },
+    head () {
+      return {
+        title: this.title,
+        meta: [
+          { hid: 'ddd', name: 'ddd', content: 'My custom description' }
+        ]
+      }
     }
   }
 
