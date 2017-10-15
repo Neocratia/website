@@ -44,34 +44,31 @@ button.square
     padding-left: 0px
 
 // Checkboxes to the right
-.input-group--selection-controls__ripple {
+.input-group--selection-controls__ripple
     right: -16px;
     left: initial;
-}
-.input-group--selection-controls label {
-    left: 0;
-}
 
-.input-group.input-group--selection-controls .icon {
+.input-group--selection-controls label
+    left: 0;
+
+.input-group.input-group--selection-controls .icon
     right: 8px;
     left: initial;
-}
-.input-group.input-group--selection-controls label {
-    max-width: initial;
-}
 
-.img-responsive{
+.input-group.input-group--selection-controls label
+    max-width: initial;
+
+
+.img-responsive
   width: 100%;
   max-width: 300px;
   display: block;
   margin: auto;
-}
 
-.join-form{
+.join-form
   display: block;
   margin: auto;
   max-width: 500px;
-}
 
 .expansion-panel__body
   div.card__text
@@ -80,31 +77,34 @@ button.square
 .carousel
   height: 320px;
 
-.expansion-panel__body .card__text p:last-child {
+.expansion-panel__body .card__text p:last-child
   margin-bottom: 0;
-}
 
 .expansion-panel__body .card__text ol:not(last-child),
-.expansion-panel__body .card__text ul:not(last-child) {
+.expansion-panel__body .card__text ul:not(last-child)
   margin-bottom: 1em;
-}
 
 .carousel__controls
   display:none
 
+// Forms with white--text 
 .application--light 
   .white--text 
     .input-group
       label, .input-group__error, input, textarea
-        color: #fff !important
-        caret-color: #fff !important
-      .input-group__details:before
-        background-color: #fff !important
+        color: $white !important
+        caret-color: $white !important
+      .input-group__details:before, .input-group__details:after
+        background-color: $white !important
     .input-group--selection-controls .icon
-      color: #fff !important
+      color: $white !important
 
-
-
-.input-group .input-group__details:after, .input-group .input-group__details:before
-  background-color: #fff !important
-  
+// parallax customizations
+.parallax
+  &.scrim
+    .parallax__content
+      background: rgba(0, 0, 0, 0.2);
+  &.main-image
+    .parallax__image-container
+      img
+        translate3d(0%, 212px, 0px) !important

@@ -7,7 +7,7 @@
 <!--           <div class="video-container">
             <iframe src="https://www.youtube.com/embed/qnqz5fpJH0M" frameborder="0" allowfullscreen></iframe>
           </div> -->
-        <v-parallax src="/img/homebg.jpg" height="557">
+        <v-parallax src="/img/homebg.jpg" height="557" class="scrim main-image">
           <v-layout row wrap justify-center align-center>
             <v-flex class="xs6"></v-flex>
             <v-flex class="xs6">
@@ -40,7 +40,7 @@
                 <div class="subheading">
                   “I joined Neocratia because I’m tired of widespread corruption governing our societies. I believe it’s about time that we do something about it.”
                 </div>
-                <div class="body-2 text-xs-right mt-2">Juan José Roesel</div>
+                <div class="body-2 text-xs-right mt-2">Juan José Roesel, Volunteer</div>
               </v-flex>
             </v-layout>
           </v-container>
@@ -55,7 +55,7 @@
                 <div class="subheading">
                   “'If democracy were to be invented today, what would it be like?' Neocratia is the answer.”
                 </div>
-                <div class="body-2 text-xs-right mt-2">Alexander Torrenegra</div>
+                <div class="body-2 text-xs-right mt-2">Alexander Torrenegra, Volunteer</div>
               </v-flex>
             </v-layout>
           </v-container>
@@ -70,7 +70,7 @@
                 <div class="subheading">
                   “Neocratia can bring honesty to governments and societies through thoughtful debate.”
                 </div>
-                <div class="body-2 text-xs-right mt-2">Helena Schwertheim</div>
+                <div class="body-2 text-xs-right mt-2">Helena Schwertheim, Volunteer</div>
               </v-flex>
             </v-layout>
           </v-container>
@@ -84,7 +84,9 @@
       <v-form v-model="valid" ref="form" class="mt-5 px-4 join-form white--text" v-on:submit.prevent="submit">
 
         <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed"></v-checkbox>
-        <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally"></v-checkbox>
+        <v-checkbox label="Learn when Neocratia gets to your area" v-model="interest" value="learn"></v-checkbox>
+        <v-checkbox label="Lead your local movement" v-model="interest" value="lead-movement-locally"></v-checkbox>
+        <v-checkbox label="Contribute to the open source platform" v-model="interest" value="contribute-open-source"></v-checkbox>
         <v-checkbox label="Donate" v-model="interest" value="donate"></v-checkbox>
         <v-text-field label="Your email address" v-model="email" :rules="emailRules"></v-text-field>
 
@@ -371,7 +373,7 @@
 
   </v-flex>
 
-  <v-dialog v-model="dialog" persistent>
+  <v-dialog v-model="dialog" persistent width="320">
     <v-card>
       <v-card-title>
       </v-card-title>
@@ -447,7 +449,7 @@ export default {
           email: email
         });
         this._data.dialog = true;
-        this.$refs.form.reset()
+        // this.$refs.form.reset()
       }
 
     },
