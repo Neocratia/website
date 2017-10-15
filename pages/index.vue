@@ -80,7 +80,7 @@
     <v-card class="primary white--text pb-5">
       <a name="join"></a>
       <h2 class="text-xs-center headline py-5"  v-if="show_form">Choose one or more:</h2>
-      <p class="text-xs-center pt-5">We have received your information. Thanks for your interest!</p>
+      <p class="text-xs-center pt-5" v-if="!show_form">We have received your information. Thanks for your interest!</p>
       <v-form v-model="valid" ref="form" class=" px-4 join-form white--text" v-on:submit.prevent="submit" v-if="show_form">
 
         <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed"></v-checkbox>
