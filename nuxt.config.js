@@ -6,22 +6,6 @@ const meta_image = '/img/manifesto.png'
 const meta_twitter = '@neocratia1'
 const meta_url = 'https://www.neocratia.org'
 
-/*
-<!-- Facebook -->
-<meta property="og:description" content="If Democracy wre to be invented today, what would it be like? Meet neocratia">
-<meta property="og:image" content="/img/manifesto.png">
-<meta property="og:title" content="Neocratia">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://swapps.io/">
-<!-- End Facebook -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="@neocratia1">
-<meta name="twitter:description" content="If Democracy wre to be invented today, what would it be like? Meet neocratia">
-<meta name="twitter:image" content="/img/manifesto.png">
-<meta name="twitter:site" content="@neocratia1">
-<meta name="twitter:title" content="Neocratia">
-<!-- End Twitter -->
-*/
 module.exports = {
   /*
    ** Headers of the page
