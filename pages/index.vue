@@ -7,11 +7,11 @@
 <!--           <div class="video-container">
             <iframe src="https://www.youtube.com/embed/qnqz5fpJH0M" frameborder="0" allowfullscreen></iframe>
           </div> -->
-        <v-parallax src="/img/neocratia-main.jpg" height="590" class="scrim main-image">
+        <v-parallax src="/img/neocratia-main-reduced.jpg" height="590" class="scrim main-image">
           <v-layout row wrap justify-center align-center>
             <v-flex class="xs6"></v-flex>
             <v-flex class="xs6">
-            <h4 class="white--text">Let's reinvent the way our laws are created.</h4>
+            <h4 class="white--text">Let’s upgrade the way our laws are created</h4>
             </v-flex>
           </v-layout>
         </v-parallax>
@@ -21,7 +21,7 @@
 
     <v-card class="primary white--text py-5">
       <p class="subheading text-xs-center px-3">
-        We are tired of corruption, big money influencing our laws, and stupid political discourse.<br/>
+        We are tired of corruption, big money influencing our laws, and stupid political discourse.
         Democracy must be honest and efficient, but the system is broken.<br/><br/>
         Neocratia’s goal is to upgrade the way our laws are created.
 
@@ -79,9 +79,9 @@
     </v-card>
     <v-card class="primary white--text pb-5">
       <a name="join"></a>
-      <h2 class="text-xs-center headline py-5">Choose one or more</h2>
-
-      <v-form v-model="valid" ref="form" class="mt-5 px-4 join-form white--text" v-on:submit.prevent="submit">
+      <h2 class="text-xs-center headline py-5"  v-if="show_form">Choose one or more:</h2>
+      <p class="text-xs-center pt-5">We have received your information. Thanks for your interest!</p>
+      <v-form v-model="valid" ref="form" class=" px-4 join-form white--text" v-on:submit.prevent="submit" v-if="show_form">
 
         <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed"></v-checkbox>
         <v-checkbox label="Learn when Neocratia gets to your area" v-model="interest" value="learn"></v-checkbox>
@@ -432,7 +432,8 @@ export default {
       donate: false,
       interest: [],
       dialog: false,
-      interest: ['stay-informed']
+      interest: ['stay-informed'],
+      show_form: true
     }
   },
   methods: {
@@ -449,7 +450,8 @@ export default {
           email: email
         });
         this._data.dialog = true;
-        // this.$refs.form.reset()
+        this.$refs.form.reset()
+        this._data.show_form = false;
       }
 
     },
