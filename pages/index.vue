@@ -12,19 +12,32 @@
     <v-card flat tile class="secondary text-xs-center">
       <v-layout fill-height justify-center>
         <v-flex xs12>
-          <div class="video-container">
+<!--           <div class="video-container">
             <iframe src="https://www.youtube.com/embed/qnqz5fpJH0M" frameborder="0" allowfullscreen></iframe>
-          </div>
+          </div> -->
+        <v-parallax src="/img/homebg.jpg" height="557">
+<!--           <v-layout row wrap justify-center align-center>
+            <v-flex class="xs6"></v-flex>
+            <v-flex class="xs6">
+            <h4 class="white--text">Let's upgrade the way our laws are created</h4>
+            </v-flex>
+          </v-layout> -->
+        </v-parallax>
         </v-flex>
       </v-layout>
     </v-card>
 
-    <p class="subheading text-xs-center mt-5 px-5">
-      Our goal is to bring honesty to all governments and societies by enabling citizens to make laws and decisions with transparency, accountability, liquid democracy, and thoughtful debate.
-    </p>
+    <v-card class="primary white--text py-5">
+      <p class="subheading text-xs-center px-3">
+        We are tired of corruption, big money influencing our laws, and stupid political discourse.<br/>
+        Democracy must be honest and efficient, but the system is broken.<br/><br/>
+        Neocratia’s goal is to upgrade the way our laws are created.
 
-    <v-card class="primary white--text mt-5">
-      <v-carousel hide-controls>
+      </p>
+    </v-card>
+
+    <v-card class="">
+ <v-carousel hide-controls>
         <v-carousel-item src="">
           <v-container fluid grid-list-lg>
             <v-layout row align-center px-5>
@@ -71,32 +84,29 @@
           </v-container>
         </v-carousel-item>
       </v-carousel>
-
     </v-card>
-    <a name="join"></a>
-    <h2 class="text-xs-center headline mt-5">Join the movement</h2>
+    <v-card class="primary white--text pb-5">
+      <a name="join"></a>
+      <h2 class="text-xs-center headline py-5">Choose one or more</h2>
 
-    <v-form v-model="valid" ref="form" class="mt-5 px-4 join-form" v-on:submit.prevent="submit">
+      <v-form v-model="valid" ref="form" class="mt-5 px-4 join-form white--text" v-on:submit.prevent="submit">
 
-      <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed"></v-checkbox>
-      <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally"></v-checkbox>
-      <v-checkbox label="Donate" v-model="interest" value="donate"></v-checkbox>
-      <v-text-field label="Your email address" v-model="email" :rules="emailRules"></v-text-field>
+        <v-checkbox label="Stay Informed" v-model="interest" value="stay-informed"></v-checkbox>
+        <v-checkbox label="Lead the movement locally" v-model="interest" value="lead-movement-locally"></v-checkbox>
+        <v-checkbox label="Donate" v-model="interest" value="donate"></v-checkbox>
+        <v-text-field label="Your email address" v-model="email" :rules="emailRules"></v-text-field>
 
-      <div class="text-xs-center">
-        <v-btn @click="submit" primary dark large type="submit">JOIN</v-btn>
-      </div>
-    </v-form>
-
-    <v-card flat tile class="primary text-xs-center mt-5 pt-2">
+        <div class="text-xs-center">
+          <v-btn @click="submit" large type="submit" class="primary--text">JOIN</v-btn>
+        </div>
+      </v-form>
+    </v-card>
+    <v-card class="py-3 px-3">
       <v-layout fill-height justify-center>
-        <v-card-title primary-title class="white--text headline">
+        <v-card-title primary-title class="text-xs-center headline">
           Learn more:
         </v-card-title>
       </v-layout>
-    </v-card>
-
-    <div class="py-3 px-3 primary">
       <v-expansion-panel class="mb-3">
         <v-expansion-panel-content ripple>
           <div slot="header">How it works</div>
@@ -338,16 +348,15 @@
           </v-card>
         </v-expansion-panel-content>
       </v-expansion-panel>
-    </div>
+    </v-card>
 
-    <v-card class="mt-4 footer-card">
+    <v-card class="primary white--text footer-card">
       <v-container fluid grid-list-lg>
         <v-layout column align-center justify-center>
           <v-card-title primary-title class="title">
             Spread the word:
           </v-card-title>
           <div class="mb-4 spread-the-word">
-
             <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.neocratia.org/" target="_blank" class="button">
               <v-btn light class="square">
                 <v-icon x-large primary>mdi-facebook</v-icon>
