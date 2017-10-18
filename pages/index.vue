@@ -107,11 +107,15 @@
           <v-card>
             <v-card-text class="grey lighten-4">
               <p name="211c" id="211c" class="graf graf--p graf-after--h3">Neocratia started when a bunch of us got together and asked ourselves:</p>
-              <blockquote name="63fb" id="63fb" class="graf graf--pullquote graf--startsWithDoubleQuote graf-after--p">“If democracy were to be invented today, what would it be&nbsp;like?”</blockquote>
+              <p>
+                <strong>“If democracy were to be invented today, what would it be&nbsp;like?”</strong>
+              </p>
               <p name="9f2e" id="9f2e" class="graf graf--p graf-after--pullquote">We looked for the advice of thought leaders in several sectors. We conducted hundreds of brainstorm sessions on the topic.</p>
               <p name="5a09" id="5a09" class="graf graf--p graf-after--p">Simultaneously, we started coding nights and weekends developing the software required to prototype some of the best ideas.</p>
               <p name="d716" id="d716" class="graf graf--p graf-after--p">After two years of learning and experimenting, we identified the most promising ideas and combined them in this manifesto.</p>
-              <blockquote name="2ef5" id="2ef5" class="graf graf--pullquote graf-after--p">We call it Neocratia and our mission is to upgrade the way our laws are created and societies govern themselves.</blockquote>
+              <p>
+                <strong>We call it Neocratia and our mission is to upgrade the way our laws are created and societies govern themselves.</strong>
+              </p>
               <p name="a1ea" id="a1ea" class="graf graf--p graf-after--pullquote">Today more than ever, ordinary citizens need to get involved; they need to stand up and be counted; they need to rally for change in the mechanics of government. Those of us who can, need to raise our voices for the voiceless and do something on behalf of the powerless.</p>
               <p name="98d6" id="98d6" class="graf graf--p graf-after--p">We at Neocratia are activists who remain committed to establishing true democracy. Like casting a pebble into a pond, we believe that in time, the ripple we start will reach the furthest shore.</p>
               <p name="917f" id="917f" class="graf graf--p graf-after--p graf--trailing">Neocratia can succeed in many ways: it can enable the creation and improvement of thousands of democracies, big and small, become the legislative branch of existing democracies, make democracy part of our daily lives, enable introverts to become political leaders, and more. We expect, at least, to inspire others to improve the government of the people, by the people, for the people.</p>
@@ -217,7 +221,9 @@
               <p name="aed1" id="aed1" class="graf graf--p graf-after--li">Should an insufficient number of Neocratia representatives be elected to pass the legislation required to upgrade the legislative body, those representatives will act as proxies until the following election cycle.</p>
               <p name="21c9" id="21c9" class="graf graf--p graf-after--p">Proxy representatives act as intermediaries between the group who elected them and the public office they are elected to. Their actions are circumscribed by the decisions of the group using Neocratium.</p>
               <p name="517b" id="517b" class="graf graf--p graf-after--p">Proxy representatives won't have an opinion of their own. They will be accountable as their reputation will be on the line. If a proxy representative fails at their job, and depending on the government’s legislation, the group that elected him/her may be able to impeach them.</p>
-              <h6 name="f796" id="f796" class="graf graf--h4 graf-after--p graf--trailing">Would you like to know more? <a href="#join" rel="nofollow" >Click here and send us your email address</a>. As soon as enough people in your area are interested, we’ll help you lead or become a member of your own local movement.</h6>
+              <p>
+                <strong >Would you like to know more? <a href="#join" rel="nofollow" >Click here and send us your email address</a>. As soon as enough people in your area are interested, we’ll help you lead or become a member of your own local movement.</strong>
+              </p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
@@ -237,8 +243,7 @@
             <v-card-text class="grey lighten-4">
               <p name="769c" id="769c" class="graf graf--p graf-after--h3">Neocratia is a global movement that will have autonomous local chapters. Locally, Neocratia will take different legal structures depending on local laws and the requirements to receive donations and have candidates elected to public office. It may be an NGO, a political party, or a movement that doesn’t have a legal structure.</p>
               <p name="4584" id="4584" class="graf graf--p graf-after--p">Globally, Neocratia will be governed by a board of directors that elects an executive director.</p>
-              <h6 name="9a63" id="9a63" class="graf graf--h4 graf-after--p graf--trailing">If you'd like to volunteer<strong class="markup--strong markup--h4-strong">, please </strong><a href="#join" class="markup--anchor markup--h4-anchor" rel="nofollow" target="_blank"><strong class="markup--strong markup--h4-strong">let us&nbsp;know</strong></a><strong class="markup--strong markup--h4-strong">.</strong></h6>
-            </v-card-text>
+             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
       </v-expansion-panel>
