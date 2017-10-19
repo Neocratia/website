@@ -243,6 +243,47 @@
             <v-card-text class="grey lighten-4">
               <p name="769c" id="769c" class="graf graf--p graf-after--h3">Neocratia is a global movement that will have autonomous local chapters. Locally, Neocratia will take different legal structures depending on local laws and the requirements to receive donations and have candidates elected to public office. It may be an NGO, a political party, or a movement that doesn’t have a legal structure.</p>
               <p name="4584" id="4584" class="graf graf--p graf-after--p">Globally, Neocratia will be governed by a board of directors that elects an executive director.</p>
+              
+              <strong>Project leader</strong>
+              <br>
+              <strong>Alexander Torrenegra</strong>
+              <br>Responsible for:
+              <ul>
+                <li>Pursuing the vision.</li>
+                <li>Making major decisions.</li>
+                <li>Obtaining the resources required to execute the vision.</li>
+                <li>Managing the overall operations and resources of the project.</li>
+                <li>Be the spokesperson for the project.</li>
+                <li>Be the tiebreaker for initiatives of the board of directors that end in a voting tie.</li>
+              </ul>
+              <p></p>
+              <strong>Board of directors</strong>
+              <br>Responsible for:
+              <ul>
+                <li>Determining the vision of the project.</li>
+                <li>Electing the project leader.</li>
+                <li>Determining who can be a member of the board.</li>
+                <li>Determining the voting weight for each member of the board.</li>
+              </ul>
+              Eligibility for being a member of the board:
+              <ul>
+                <li>Elected by the majority vote by the board of directors.</li>
+              </ul>
+              <strong>Voting weight for each director:</strong>
+              <ul>
+                <li>Each director will earn one vote for each hour of volunteering work after approval by the rest of the board of a directors.</li>
+                <li>Each director will lose 50% of their votes after 90 days of not getting new votes via rule #1 above.</li>
+                <li>Each director will lose 100% of their votes and their status as member of the board after 365 days of not getting new votes via rule #1 above.</li>
+              </ul>
+              <strong>Volunteers</strong>
+              <br>Responsible for:
+              <ul>
+                <li>Following the directives of the project leader.</li>
+              </ul>
+              Eligibility:
+              <ul>
+                <li>Everyone.</li>
+              </ul>
              </v-card-text>
           </v-card>
         </v-expansion-panel-content>
