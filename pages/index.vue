@@ -246,7 +246,7 @@
               
               <strong>Project leader</strong>
               <br>
-              <strong>Alexander Torrenegra</strong>
+              Alexander Torrenegra
               <br>Responsible for:
               <ul>
                 <li>Pursuing the vision.</li>
