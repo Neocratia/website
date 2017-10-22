@@ -91,6 +91,9 @@ button.square
 .application--light 
   .white--text 
     .input-group
+      &.input-group--text-field // Adjust margin email field
+        margin-left: 30px;
+        padding-right: 40px;
       label, .input-group__error, input, textarea
         color: $white !important
         caret-color: $white !important
@@ -112,7 +115,4 @@ button.square
   &.main-image
     .parallax__image-container
       img
-        transition: none !important
-
-blockquote
-  margin-bottom: 5px
+        transition: none !important // Remove transition to dont delay load

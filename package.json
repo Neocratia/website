@@ -17,6 +17,7 @@
     "promise-polyfill": "^6.0.2",
     "vue": "latest",
     "vue-server-renderer": "latest",
+    "vue-smoothscroll": "^0.1.1",
     "vue-template-compiler": "latest",
     "vuetify": "^0.15.7"
   },

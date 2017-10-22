@@ -76,9 +76,9 @@
           </v-container>
         </v-carousel-item>
       </v-carousel>
-    <a name="join"></a>
+    <a id="card-join"></a>
     </v-card>
-    <v-card class="primary white--text pb-5">
+    <v-card class="primary white--text pb-5" >
       <h2 class="text-xs-center headline py-5"  v-if="show_form">Choose one or more:</h2>
       <p class="text-xs-center pt-5" v-if="!show_form">We have received your information. Thanks for your interest!</p>
       <v-form v-model="valid" ref="form" class=" px-4 join-form white--text" v-on:submit.prevent="submit" v-if="show_form">
@@ -103,22 +103,54 @@
       </v-layout>
       <v-expansion-panel class="mb-3">
         <v-expansion-panel-content ripple>
+          <div slot="header">Our manifesto</div>
+          <v-card>
+            <v-card-text class="grey lighten-4">
+              <p>We are tired of corruption, big money influencing our laws, and stupid political discourse. The system is broken. It needs a major upgrade.</p>
+              <p>We believe that democracy must be honest, efficient, and corruption-free.</p>
+              <p>Let’s upgrade the way our laws are created. Here’s how:</p>
+              <p>We believe that all citizens should be able to propose initiatives, thoughtfully discuss matters, and co-create laws. We believe that laws should be made with transparency and not behind closed doors. The actions and votes of representatives should be visible to others.</p>
+              <p>We believe citizens should always have the choice of voting directly for laws or delegating their vote to others. Citizens should be able the select the representatives they want at anytime and change them immediately when they feel they no longer represent them.</p>
+              <p>We believe that becoming a representative shouldn’t mean selling your soul to the political machine. It should be easy for any citizen to be able to represent others. A few or many.
+              All of us, together, can have a massive impact on the laws that affect us.</p>
+
+              <p>All of us, together, can have a massive impact on the laws that affect us.</p>
+
+              <p>Become part of your own local revolution. The plan of action is simple, yet ambitious:</p>
+
+              <ul>
+                <li>Launch or support a campaign to get enough seats in your local legislative body</li>
+                <li>Once elected, upgrade the legislative body with a technology platform where initiatives can be proposed, ideas can be thoughtfully and publicly debated, votes can be cast privately, representatives can be picked and scrutinized, and decisions can be made with transparency</li>
+              </ul>
+              <p>Neocratia’s vision may appear utopic to many, but so too were the ideas of true democracy and universal human rights. Together, we can make Neocratia a reality. It won’t be perfect and it won’t be easy, but we must start somewhere. We must iterate, improve, and move things forward. All you have to do is send us your email address <a href="#card-join" class="v-smooth-scroll">above</a>. As soon as enough people in your area are interested, we’ll help you lead or become a member of your own local movement. Please remember that if you do nothing, you are actually perpetuating the problem — the choice is yours.</p>
+            </v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+        <v-expansion-panel-content ripple>
           <div slot="header">The origins of Neocratia</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p name="211c" id="211c" class="graf graf--p graf-after--h3">Neocratia started when a bunch of us got together and asked ourselves:</p>
+              <p>Neocratia started when a bunch of us got together and asked ourselves:</p>
               <p>
-                <strong>“If democracy were to be invented today, what would it be&nbsp;like?”</strong>
+                  <strong>“If democracy were invented today, what would it be like?”</strong>
               </p>
-              <p name="9f2e" id="9f2e" class="graf graf--p graf-after--pullquote">We looked for the advice of thought leaders in several sectors. We conducted hundreds of brainstorm sessions on the topic.</p>
-              <p name="5a09" id="5a09" class="graf graf--p graf-after--p">Simultaneously, we started coding nights and weekends developing the software required to prototype some of the best ideas.</p>
-              <p name="d716" id="d716" class="graf graf--p graf-after--p">After two years of learning and experimenting, we identified the most promising ideas and combined them in this manifesto.</p>
+              <p>We looked for the advice of thought leaders in several sectors. We conducted hundreds of brainstorm sessions on the topic. While we found many aspects where democracy would be similar to what it is today, we also found many others where it would be both significantly different and better. One of them, in particular, could have a major impact on the way democracies work: the process of creating laws.</p>
+              <p>Simultaneously, we started coding nights and weekends developing the software required to prototype some of the best ideas.</p>
+              <p>After two years of researching and experimenting, we identified the most promising ideas and combined them in this manifesto:</p>
               <p>
-                <strong>We call it Neocratia and our mission is to upgrade the way our laws are created and societies govern themselves.</strong>
+                  <strong>
+                  We call it Neocratia and our mission is to upgrade the way our laws are created and societies govern themselves.
+                </strong>
               </p>
-              <p name="a1ea" id="a1ea" class="graf graf--p graf-after--pullquote">Today more than ever, ordinary citizens need to get involved; they need to stand up and be counted; they need to rally for change in the mechanics of government. Those of us who can, need to raise our voices for the voiceless and do something on behalf of the powerless.</p>
-              <p name="98d6" id="98d6" class="graf graf--p graf-after--p">We at Neocratia are activists who remain committed to establishing true democracy. Like casting a pebble into a pond, we believe that in time, the ripple we start will reach the furthest shore.</p>
-              <p name="917f" id="917f" class="graf graf--p graf-after--p graf--trailing">Neocratia can succeed in many ways: it can enable the creation and improvement of thousands of democracies, big and small, become the legislative branch of existing democracies, make democracy part of our daily lives, enable introverts to become political leaders, and more. We expect, at least, to inspire others to improve the government of the people, by the people, for the people.</p>
+              <p>
+                  We at Neocratia are activists who remain committed to improving democracy. Like casting a pebble into a pond, we believe that in time, the ripple we start will reach the furthest shore.
+              </p>
+              <p>
+                  Today more than ever, ordinary citizens need to get involved; they need to stand up and be counted; they need to rally for change in the mechanics of government.
+              </p>
+              <p>
+                  Neocratia can succeed in many ways: it can enable the creation and improvement of thousands of democracies, big and small, become the legislative branch of existing democracies, make democracy part of our daily lives, enable introverts to become political leaders, and more. We expect, at least, to inspire others to improve the government of the people, by the people, for the people.
+              </p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
@@ -165,6 +197,10 @@
                   <li name="8756" id="8756" class="graf graf--li graf-after--li">The citizen can vote directly for the proposal, thereby overriding the decision made by the representatives on their behalf.</li>
               </ul>
               <p name="95f7" id="95f7" class="graf graf--p graf-after--li">Each citizen is given control by being able to view how their chosen representatives, and the representatives of their representatives, voted for a law proposal while the voting is still in progress. To avoid groupthink, the overall voting results are only made public when the voting ends.</p>
+
+              <p>Some call this type of decision-making <a href="https://en.wikipedia.org/wiki/Delegative_democracy" target="_blank">liquid democracy</a>.</p>
+
+
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
@@ -222,7 +258,7 @@
               <p name="21c9" id="21c9" class="graf graf--p graf-after--p">Proxy representatives act as intermediaries between the group who elected them and the public office they are elected to. Their actions are circumscribed by the decisions of the group using Neocratium.</p>
               <p name="517b" id="517b" class="graf graf--p graf-after--p">Proxy representatives won't have an opinion of their own. They will be accountable as their reputation will be on the line. If a proxy representative fails at their job, and depending on the government’s legislation, the group that elected him/her may be able to impeach them.</p>
               <p>
-                <strong >Would you like to know more? <a href="#join" rel="nofollow" >Click here and send us your email address</a>. As soon as enough people in your area are interested, we’ll help you lead or become a member of your own local movement.</strong>
+                <strong >Would you like to know more? <a href="#card-join" class="v-smooth-scroll" rel="nofollow" >Click here and send us your email address</a>. As soon as enough people in your area are interested, we’ll help you lead or become a member of your own local movement.</strong>
               </p>
             </v-card-text>
           </v-card>
@@ -361,6 +397,9 @@
 
 <script>
 var firebase = require('firebase');
+var vueSmoothScroll = require('vue-smoothscroll');
+// Vue.use(vueSmoothScroll);
+
 export default {
   data() {
     return {
