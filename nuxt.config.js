@@ -108,6 +108,7 @@ module.exports = {
     lang: 'styl'
   }],
   env: {
-    firebase_url: process.env.FIREBASE_URL
+    firebase_url: process.env.FIREBASE_URL,
+    api_url: process.env.API_URL
   }
 }

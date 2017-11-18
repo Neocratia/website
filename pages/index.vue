@@ -398,7 +398,9 @@
 <script>
 var firebase = require('firebase');
 var vueSmoothScroll = require('vue-smoothscroll');
+var axios = require('axios');
 // Vue.use(vueSmoothScroll);
+const API_URL = process.env.api_url;
 
 export default {
   data() {
@@ -437,6 +439,13 @@ export default {
         this._data.dialog = true;
         this.$refs.form.reset()
         this._data.show_form = false;
+
+        if(email){
+          axios.post(API_URL + '/contacts/', {
+            email: email,
+            interests: interest
+          },{headers: { "Content-Type": "application/json" }});
+        }
       }
 
     },
@@ -445,9 +454,7 @@ export default {
     },
     checkboxChange(element) {
       console.log(element);
-      // if(element.length == 0){
       this.$refs.form.validate()
-      // }
     },
     head () {
       return {
@@ -458,6 +465,5 @@ export default {
       }
     }
   }
-
 }
 </script>

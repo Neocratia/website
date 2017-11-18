@@ -10,6 +10,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "config": "^1.26.1",
     "dotenv": "^4.0.0",
     "firebase": "^4.2.0",
