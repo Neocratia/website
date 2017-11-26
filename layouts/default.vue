@@ -1,7 +1,9 @@
 <template>
 <v-app toolbar footer>
   <v-toolbar fixed>
-    <v-toolbar-title><span class="primary--text">neo</span>cratia</v-toolbar-title>
+    <v-toolbar-title>
+      <img src="/logo.png" alt="neocratia logo">
+    </v-toolbar-title>
     <v-spacer></v-spacer>
   </v-toolbar>
   <main>
