@@ -29,7 +29,7 @@
     </v-card>
 
     <v-card class="">
- <v-carousel hide-controls>
+ <v-carousel light="show_arrows">
         <v-carousel-item src="">
           <v-container fluid grid-list-lg>
             <v-layout row align-center px-5>
@@ -420,7 +420,8 @@ export default {
       interest: [],
       dialog: false,
       interest: ['stay-informed'],
-      show_form: true
+      show_form: true,
+      show_arrows: true
     }
   },
   methods: {
