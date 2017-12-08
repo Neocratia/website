@@ -117,9 +117,14 @@ button.square
   &.main-image
     .parallax__image-container
       img
-        transition: none !important // Remove transition to dont delay load
+        //transition: none !important // Remove transition to dont delay load
 
 .carousel
   .btn.theme--light
     .icon
       color: $theme.primary
+
+.page-team a, .navigation-bar a
+  text-decoration: none
+  &:hover
+    text-decoration: underline
