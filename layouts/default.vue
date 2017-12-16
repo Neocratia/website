@@ -13,8 +13,8 @@
       {{ $t('links.our_team') }}
       </nuxt-link>
     <v-menu offset-y >
-      <v-btn color="primary" flat light slot="activator" v-if="$i18n.locale === 'en'">EN</v-btn>
-      <v-btn color="primary" flat light slot="activator" v-else>ES</v-btn>
+      <v-btn class="btn-language" color="primary" flat light slot="activator" v-if="$i18n.locale === 'en'">EN</v-btn>
+      <v-btn class="btn-language" color="primary" flat light slot="activator" v-else>ES</v-btn>
       <v-list class="language-selector">
         <v-list-tile v-if="$i18n.locale === 'en'">
           <v-list-tile-title>
