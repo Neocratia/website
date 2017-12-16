@@ -2,15 +2,11 @@
   "links": {
     "home": "Home",
     "about": "About",
+    "our_team": "OUR TEAM",
     "english": "English version",
-    "french": "French version"
+    "spanish": "Spanish version"
   },
   "home": {
-    "title": "Welcome",
-    "introduction": "This is an introduction in English."
-  },
-  "about": {
-    "title": "About",
-    "introduction": "This page is made to give you more informations."
+    "main_heading": "Let’s upgrade the way our laws are created"
   }
 }

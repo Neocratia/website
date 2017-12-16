@@ -103,9 +103,9 @@ module.exports = {
     middleware: 'i18n'
   },
   plugins: ['~plugins/vuetify.js', '~plugins/firebase.js', '~plugins/i18n.js'],
-  generate: {
-    routes: ['/', '/team', '/es', '/es/team']
-  },
+  // generate: {
+  //   routes: ['/', '/team', '/es', '/es/team']
+  // },
   css: [{
     src: '~assets/style/app.styl',
     lang: 'styl'
