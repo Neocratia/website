@@ -21,9 +21,8 @@
 
     <v-card class="primary white--text py-5">
       <p class="subheading text-xs-center px-3">
-        We are tired of corruption, big money influencing our laws, and stupid political discourse.
-        Democracy must be honest and efficient, but the system is broken.<br/><br/>
-        Neocratia’s goal is to upgrade the way our laws are created.
+        {{ $t('home.subheading.line1') }}.<br/><br/>
+        {{ $t('home.subheading.line2') }}.
 
       </p>
     </v-card>

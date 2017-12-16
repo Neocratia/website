@@ -7,6 +7,23 @@
     "spanish": "Spanish version"
   },
   "home": {
-    "main_heading": "Let’s upgrade the way our laws are created"
+    "title": "Neocratia",
+    "main_heading": "Let’s upgrade the way our laws are created",
+    "subheading":{
+      "line1": "We are tired of corruption, big money influencing our laws, and stupid political discourse. Democracy must be honest and efficient, but the system is broken",
+      "line2": "Neocratia’s goal is to upgrade the way our laws are created"
+    },
+    "choose_one_or_more": "Choose one or more",
+    "stay_informed": "Stay Informed",
+    "learn": "Learn when Neocratia gets to your area",
+    "lead_local_movement": "Lead your local movement",
+    "contribute_open_source": "Contribute to the open source platform",
+    "donate": "Donate",
+    "join": "JOIN",
+    "learn_more": "Learn more",
+    "our_manifesto": "Our manifesto",
+    "origin_neocratia": "The origins of Neocratia",
+    "proposal_process": "The proposal process",
+    "text": ""
   }
 }
