@@ -6,6 +6,22 @@
     "english": "English version",
     "spanish": "Spanish version"
   },
+  "global": {
+    "choose_one_or_more": "Choose one or more",
+    "thanks_form_sent": "We have received your information. Thanks for your interest!",
+    "keep_posted_form_sent": "We’ll keep you posted. As soon as there are enough people interested in your area, we'll help you lead or become part of your own local revolution",
+    "stay_informed": "Stay Informed",
+    "learn": "Learn when Neocratia gets to your area",
+    "lead_local_movement": "Lead your local movement",
+    "contribute_open_source": "Contribute to the open source platform",
+    "donate": "Donate",
+    "join": "JOIN",
+    "your_email_address": "Your email address",
+    "spread_the_word": "Spread the word",
+    "learn_more": "Learn more",
+
+    "social_networks_message": "Let’s upgrade the way our laws are created https%3A//www.neocratia.org/"  
+  },
   "home": {
     "title": "Neocratia",
     "main_heading": "Let’s upgrade the way our laws are created",
@@ -13,17 +29,16 @@
       "line1": "We are tired of corruption, big money influencing our laws, and stupid political discourse. Democracy must be honest and efficient, but the system is broken",
       "line2": "Neocratia’s goal is to upgrade the way our laws are created"
     },
-    "choose_one_or_more": "Choose one or more",
-    "stay_informed": "Stay Informed",
-    "learn": "Learn when Neocratia gets to your area",
-    "lead_local_movement": "Lead your local movement",
-    "contribute_open_source": "Contribute to the open source platform",
-    "donate": "Donate",
-    "join": "JOIN",
-    "learn_more": "Learn more",
+    "text": ""
+  },
+  "manifesto": {
     "our_manifesto": "Our manifesto",
     "origin_neocratia": "The origins of Neocratia",
-    "proposal_process": "The proposal process",
-    "text": ""
+    "proposal_process": "The proposal process"   
   }
 }
+
+
+
+
+
