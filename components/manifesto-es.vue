@@ -7,7 +7,7 @@
       </v-layout>
       <v-expansion-panel class="mb-3">
         <v-expansion-panel-content ripple>
-          <div slot="header">Our manifesto</div>
+          <div slot="header">Nuestro manifesto</div>
           <v-card>
             <v-card-text class="grey lighten-4">
               <p>We are tired of corruption, big money influencing our laws, and stupid political discourse. The system is broken. It needs a major upgrade.</p>

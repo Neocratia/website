@@ -5,7 +5,8 @@
     <HomeHeadline />
     <Testimonials />
     <JoinForm />
-    <Manifesto/>
+    <ManifestoEs v-if="$i18n.locale === 'es'"/>
+    <Manifesto v-else/>
   <SpreadWord />
   </v-flex>
 </v-layout>
@@ -17,6 +18,7 @@ import HomeHeadline from '~/components/home-headline'
 import Testimonials from '~/components/testimonials'
 import JoinForm from '~/components/join-form'
 import Manifesto from '~/components/manifesto'
+import ManifestoEs from '~/components/manifesto-es'
 import SpreadWord from '~/components/spread-word'
 
 export default {
@@ -26,17 +28,8 @@ export default {
     Testimonials,
     JoinForm,
     Manifesto,
+    ManifestoEs,
     SpreadWord
-  },
-  methods: {
-    head () {
-      return {
-        title: this.title,
-        meta: [
-          { hid: 'ddd', name: 'ddd', content: 'My custom description' }
-        ]
-      }
-    }
   }
 }
 </script>

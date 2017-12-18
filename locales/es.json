@@ -1,10 +1,21 @@
 {
   "links": {
-    "home": "Home",
-    "about": "About",
-    "our_team": "EQUIPO",
-    "english": "English version",
-    "spanish": "Spanish version"
+    "our_team": "EQUIPO"
+  },
+  "global": {
+    "choose_one_or_more": "Selecciona uno o más",
+    "thanks_form_sent": "We have received your information. Thanks for your interest!",
+    "keep_posted_form_sent": "We’ll keep you posted. As soon as there are enough people interested in your area, we'll help you lead or become part of your own local revolution",
+    "stay_informed": "Stay Informed",
+    "learn": "Learn when Neocratia gets to your area",
+    "lead_local_movement": "Lead your local movement",
+    "contribute_open_source": "Contribute to the open source platform",
+    "donate": "Donate",
+    "join": "JOIN",
+    "your_email_address": "Your email address",
+    "spread_the_word": "Spread the word",
+    "learn_more": "Conoce más",
+    "social_networks_message": "Let’s upgrade the way our laws are created https%3A//www.neocratia.org/"  
   },
   "home": {
     "main_heading": "Mejoremos la forma en la que nuestras leyes son creadas",
@@ -12,17 +23,20 @@
       "line1": "We are tired of corruption, big money influencing our laws, and stupid political discourse. Democracy must be honest and efficient, but the system is broken",
       "line2": "Neocratia’s goal is to upgrade the way our laws are created"
     },
-    "choose_one_or_more": "Choose one or more",
-    "stay_informed": "Stay Informed",
-    "learn": "Learn when Neocratia gets to your area",
-    "lead_local_movement": "Lead your local movement",
-    "contribute_open_source": "Contribute to the open source platform",
-    "donate": "Donate",
-    "join": "JOIN",
-    "learn_more": "Learn more",
-    "our_manifesto": "Nuestro manifesto",
-    "origin_neocratia": "The origins of Neocratia",
-    "proposal_process": "The proposal process",
     "text": ""
+  },
+  "manifesto": {
+    "our_manifesto": "Our manifesto",
+    "origin_neocratia": "The origins of Neocratia",
+    "proposal_process": "The proposal process"   
+  },
+  "team": {
+    "headline": "En Neocratia, todos somos voluntarios",
+    "learn_more": "VER MÁS",
+    "alexander_torrenegra_description": "Alexander Torrenegra is a Colombian-American activist and entrepreneur. He founded multiple companies including Torre, Bunny Inc., and Voice123. He was featured in MIT’s Technology Review as Colombia’s Top Young Innovator of 2012. In 2015, he joined the World Economic Forum’ Young Global Leaders community. In the US, Alexander is an activist that pushes for immigration reform. In Colombia, he works to improve government support for innovation. Alexander is the founder of Neocratia.",
+    "andres_gonzalez_description": "Andres is a software developer, entrepreneur and tech enthusiast. Originary from Colombia, he has been in the software industry for more than 10 years leading projects for companies around the world. He is the founder and technical leader of Swapps a software development company based in  Colombia. He is the maintainer of the Neocratium platform.",
+    "helena_schwertheim_description": "Helena is passionate about innovating for a more accountable democracy. Originally from New Zealand, she has a background in political studies, sociology and international relations, having lived and studied in Australia, Colombia, Spain and France, and is now based in Sweden. During the day Helena is a researcher, analysing democratic trends. By night she works with Neocrats to upgrade how laws are made.",
+    "rolf_veldman_description": "<p>Rolf is a project manager and change manager with a passion for creative writing and 'Learning organizations'. </p><p>Curiosity is the driving force behind his ambition. This attitude leads Rolf to be creative, assertive and open minded. Fueled by his academic education in political history Rolf has always had a more than average interest in politics. He joined Neocratia in November 2017 and is responsible for Recruitment, Fundraising and Political Advice.</p>",
+    "asdasd": ""
   }
 }

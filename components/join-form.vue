@@ -5,15 +5,15 @@
       <p class="text-xs-center pt-5" v-if="!show_form">{{ $t('home.thanks_form_sent') }}</p>
       <v-form v-model="valid" ref="form" class=" px-4 join-form white--text" v-on:submit.prevent="submit" v-if="show_form">
 
-        <v-checkbox label="Stay informed" v-model="interest" value="stay-informed"></v-checkbox>
-        <v-checkbox label="Learn when Neocratia gets to your area" v-model="interest" value="learn"></v-checkbox>
-        <v-checkbox label="Lead your local movement" v-model="interest" value="lead-movement-locally"></v-checkbox>
-        <v-checkbox label="Contribute to the open source platform" v-model="interest" value="contribute-open-source"></v-checkbox>
-        <v-checkbox label="Donate" v-model="interest" value="donate"></v-checkbox>
-        <v-text-field label="Your email address" v-model="email" :rules="emailRules"></v-text-field>
+        <v-checkbox :label="$t('global.stay_informed')" v-model="interest" value="stay-informed"></v-checkbox>
+        <v-checkbox :label="$t('global.learn')" v-model="interest" value="learn"></v-checkbox>
+        <v-checkbox :label="$t('global.lead_local_movement')" v-model="interest" value="lead-movement-locally"></v-checkbox>
+        <v-checkbox :label="$t('global.contribute_open_source')" v-model="interest" value="contribute-open-source"></v-checkbox>
+        <v-checkbox :label="$t('global.donate')"  v-model="interest" value="donate"></v-checkbox>
+        <v-text-field :label="$t('global.your_email_address')" v-model="email" :rules="emailRules"></v-text-field>
 
         <div class="text-xs-center">
-          <v-btn @click="submit" large type="submit" class="primary--text">JOIN</v-btn>
+          <v-btn @click="submit" large type="submit" class="primary--text">{{ $t('global.join') }}</v-btn>
         </div>
       </v-form>
     </v-card>
@@ -21,11 +21,11 @@
     <v-card>
       <v-card-title>
       </v-card-title>
-      <v-card-text class="title text-xs-center">We’ll keep you posted. As soon as there are enough people interested in your area, we'll help you lead or become part of your own local revolution.</v-card-text>
+      <v-card-text class="title text-xs-center">{{ $t('global.keep_posted_form_sent') }}</v-card-text>
       <v-container fluid grid-list-lg class="primary white--text mt-4">
         <v-layout column align-center justify-center>
           <v-card-title primary-title class="white--text title">
-            Spread the word:
+            {{ $t('global.spread_the_word') }}:
           </v-card-title>
           <div class="mb-4 spread-the-word">
 
