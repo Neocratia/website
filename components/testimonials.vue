@@ -1,6 +1,6 @@
 <template>
     <v-card class="">
-    <v-carousel>
+    <v-carousel light>
         <v-carousel-item src="">
           <v-container fluid grid-list-lg>
             <v-layout row align-center px-5>
