@@ -2,11 +2,11 @@
 <div>
     <v-card class="primary white--text pb-5" >
       <h2 class="text-xs-center headline py-5"  v-if="show_form">{{ $t('global.choose_one_or_more') }}:</h2>
-      <p class="text-xs-center pt-5" v-if="!show_form">{{ $t('home.thanks_form_sent') }}</p>
+      <p class="text-xs-center pt-5" v-if="!show_form">{{ $t('global.thanks_form_sent') }}</p>
       <v-form v-model="valid" ref="form" class=" px-4 join-form white--text" v-on:submit.prevent="submit" v-if="show_form">
 
         <v-checkbox :label="$t('global.stay_informed')" v-model="interest" value="stay-informed"></v-checkbox>
-        <v-checkbox :label="$t('global.learn')" v-model="interest" value="learn"></v-checkbox>
+        <v-checkbox :label="$t('global.volunteer')" v-model="interest" value="volunteer"></v-checkbox>
         <v-checkbox :label="$t('global.lead_local_movement')" v-model="interest" value="lead-movement-locally"></v-checkbox>
         <v-checkbox :label="$t('global.contribute_open_source')" v-model="interest" value="contribute-open-source"></v-checkbox>
         <v-checkbox :label="$t('global.donate')"  v-model="interest" value="donate"></v-checkbox>
