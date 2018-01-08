@@ -2,7 +2,7 @@
 <div>
     <v-card class="primary white--text pb-5" >
       <h2 class="text-xs-center headline py-5"  v-if="show_form">{{ $t('global.choose_one_or_more') }}:</h2>
-      <p class="text-xs-center pt-5" v-if="!show_form">{{ $t('home.thanks_form_sent') }}</p>
+      <p class="text-xs-center pt-5" v-if="!show_form">{{ $t('global.thanks_form_sent') }}</p>
       <v-form v-model="valid" ref="form" class=" px-4 join-form white--text" v-on:submit.prevent="submit" v-if="show_form">
 
         <v-checkbox :label="$t('global.stay_informed')" v-model="interest" value="stay-informed"></v-checkbox>
