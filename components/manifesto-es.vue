@@ -10,52 +10,51 @@
           <div slot="header">Nuestro manifesto</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p>We are tired of corruption, big money influencing our laws, and stupid political discourse. The system is broken. It needs a major upgrade.</p>
-              <p>We believe that democracy must be honest, efficient, and corruption-free.</p>
-              <p>Let’s upgrade the way our laws are created. Here’s how:</p>
-              <p>We believe that all citizens should be able to propose initiatives, thoughtfully discuss matters, and co-create laws. We believe that laws should be made with transparency and not behind closed doors. The actions and votes of representatives should be visible to others.</p>
-              <p>We believe citizens should always have the choice of voting directly for laws or delegating their vote to others. Citizens should be able the select the representatives they want at anytime and change them immediately when they feel they no longer represent them.</p>
-              <p>We believe that becoming a representative shouldn’t mean selling your soul to the political machine. It should be easy for any citizen to be able to represent others. A few or many.
-              All of us, together, can have a massive impact on the laws that affect us.</p>
+              <p>Estamos cansados de la corrupción, de las largas sumas de dinero que influencian nuestras leyes y de los discursos políticos sin sentido.  El sistema político actual no funciona y necesita mejoras significativas.</p>
+              <p>Creemos que la democracia debe ser honesta, eficiente y libre de corrupción.</p>
+              <p>Mejoremos juntos la manera en que nuestras leyes son creadas, aquí les mostraremos como podemos hacer esto juntos:</p>
+              <p>Estamos convencidos que todos los ciudadanos tienen la capacidad de proponer iniciativas, discutir temas relevantes y colaborar en la creación de leyes que sean hechas con transparencia y no a puertas cerradas y creemos que las acciones y los votos de todos los representantes deberían ser visibles para todos.</p>
+              <p>Creemos que todos los ciudadanos tienen el derecho de votar directamente por las leyes o de poder delegar su voto a otros, de la misma manera, los ciudadanos deben tener el derecho a poder cambiar sus representantes cada vez que no se sientan representados por ellos.</p>
+              <p>Creemos que convertirse en un representante no significa vender el alma a la maquinaria política. Debería ser aún más sencillo para cualquier ciudadano poder representar a otros, ya sean muchos o pocos.</p>
 
-              <p>All of us, together, can have a massive impact on the laws that affect us.</p>
+              <p>Juntos podemos tener un generar un gran impacto en las leyes que nos afectan y hacer parte de nuestra propia revolución. </p>
 
-              <p>Become part of your own local revolution. The plan of action is simple, yet ambitious:</p>
+              <p> El plan de acción es simple y a la vez ambicioso, pero no imposible:</p>
 
               <ul>
-                <li>Launch or support a campaign to get enough seats in your local legislative body</li>
-                <li>Once elected, upgrade the legislative body with a technology platform where initiatives can be proposed, ideas can be thoughtfully and publicly debated, votes can be cast privately, representatives can be picked and scrutinized, and decisions can be made with transparency</li>
+                <li>Lanza o apoya una propuesta para obtener puestos en tu cuerpo legislativo local.</li>
+                <li>Una vez elegida tu campaña, actualiza tu cuerpo legislativo a través de una plataforma tecnológica en donde se puedan proponer iniciativas, se puedan debatir las ideas de manera reflexiva y pública, todos puedan votar de manera privada, se puedan elegir y examinar los representantes y las decisiones se hagan con la mayor transparencia.</li>
               </ul>
-              <p>Neocratia’s vision may appear utopic to many, but so too were the ideas of true democracy and universal human rights. Together, we can make Neocratia a reality. It won’t be perfect and it won’t be easy, but we must start somewhere. We must iterate, improve, and move things forward. All you have to do is send us your email address <a href="#card-join" class="v-smooth-scroll">above</a>. As soon as enough people in your area are interested, we’ll help you lead or become a member of your own local movement. Please remember that if you do nothing, you are actually perpetuating the problem — the choice is yours.</p>
+              <p>La visión de Neocracia puede parecer utópica para algunos, pero también lo fueron las ideas cuando se habló por primera vez de la democracia y sobre los derechos humanos universales. Juntos podemos hacer realidad Neocracia, no será perfecta y no será fácil, pero es momento de iniciar el cambio.   Debemos mejorar y hacer que las cosas sigan adelante. Si quieres un cambio todo lo que debes hacer es <a href="#card-join" class="v-smooth-scroll">clic aquí </a> y enviarnos tu correo electrónico.   Tan pronto como se reúnan las suficientes personas interesadas en el cambio en tu área, te ayudaremos a liderar o a ser parte del movimiento. Recuerda que si no haces nada por el cambio, sólo estás perpetuando el problema, ¡la decisión es tuya!</p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">The origins of Neocratia</div>
+          <div slot="header">Los orignes de Neocratia</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p>Neocratia started when a bunch of us got together and asked ourselves:</p>
+              <p>Neocracia inició cuando un grupo de personas con diversos ideales nos reunimos y nos preguntamos: si la democracia fuera inventada hoy, ¿cómo sería?</p>
               <p>
                   <strong>“If democracy were invented today, what would it be like?”</strong>
               </p>
-              <p>We sought the advice of thought leaders in several sectors. We invested time in researching the origins of democracy itself and were particularly inspired by the French political philosopher, Alexis de Tocqueville (1805–1859).</p>
+              <p>Buscamos el consejo de grandes líderes en diversos sectores e invertimos tiempo y recurso buscando los orígenes de la democracia y, así fue que encontramos nuestra inspiración en el filósofo y político francés, Alexis de Tocqueville. (1805–1859)</p>
               <p>
-                In 1835, Tocqueville travelled to the youngest democracy in the world and collated his conclusions in a book called “Democracy in America”. Tocqueville believed that democracy has a tendency to degenerate into 'soft despotism', where a country is overrun by “a network of small complicated rules” that degrade the democratic processes. Thus, while people are under the illusion that they are in control, they can actually exercise very little influence over their government.
+                En 1835, Tocqueville viajó a la democracia más joven del mundo, la democracia estadounidense, y recogió las conclusiones de su análisis en el libro llamado “Democracia en América”.  Tocqueville creía que la democracia tiene la tendencia a degenerarse en un despotismo suave; en donde el país está excedido por una red de complicadas reglas que degradan el proceso democrático. Por consiguiente, cuando las personas están bajo la ilusión de creer que están en control, realmente, poca influencia tienen dentro de las decisiones de sus gobiernos.
               </p>
               <p>
-                Tocqueville predicted that the American democracy was constructed in such a way that it would inevitably spiral into a society awash with individualists who would do little more than contribute to a burgeoning bureaucracy. People would surrender their common and communal responsibility to government, forgetting their own interests. A society would remain that was dominated by individualism in which bureaucracy ruled and the government was both aloof and distant.
+                Tocqueville pronosticó que la democracia estadounidense sería construida de tal manera que inevitablemente se convertiría en el espiral de una sociedad inundada de personas individualistas que harían poco más que contribuir a una creciente burocracia. Así mismo, las personas entregarían sus responsabilidades comunes y comunales al gobierno olvidándose de sus propios intereses y, quedaría una sociedad dominada por el individualismo y gobernada por la burocracia con un gobierno distante.
               </p>
               <p>
-                Sound familiar, right? We firmly believe that Tocqueville described what is happening all over the world. Our politicians are disconnected, bureaucracy rules, and citizens have lost their connection to the origins of democracy.
+                ¿Suena familiar? Creemos firmemente que Tocqueville describe lo que está sucediendo en este momento alrededor del mundo. Nuestros políticos están desconectados, la burocracia rige los gobiernos y los ciudadanos han perdido su conexión con el origen de la democracia. 
               </p>
               <p>
-                We conducted hundreds of brainstorm sessions on the topic. While we found many aspects and instances where democracy would be similar to what it is today, we also found many others where it would be both very different — and better. One of them, in particular, could have a major impact on the way democracies work: <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/62327F513959D0A304D4893B382B992B/S1537592714001595a.pdf/testing_theories_of_american_politics_elites_interest_groups_and_average_citizens.pdf" target="_blank">the process of creating laws</a>.
+                Llevamos a cabo cientos de lluvia de ideas en el tema, si bien hemos encontrado aspectos similares en la democracia en la que vivimos actualmente, de la misma manera, encontramos otras en donde difieren por completo.  Una de ellas, en particular, impactaría sustancialmente la manera en que las democracias funcionan:  <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/62327F513959D0A304D4893B382B992B/S1537592714001595a.pdf/testing_theories_of_american_politics_elites_interest_groups_and_average_citizens.pdf" target="_blank">La creación de las leyes.</a>
               </p>
               <p>
-                Simultaneously, we started coding nights and weekends developing the software required to prototype some of the best ideas.
+                Por esta razón, empezamos a programar noches y semanas enteras, para desarrollar un prototipo que nos permita recoger las mejores ideas y hacerlas visibles.
               </p>
               <p>
-                After two years of researching and experimenting, we identified the most promising ideas and combined them in this manifesto:
+                Luego de dos años de investigación y experimentos, identificamos las ideas más prometedoras y las combinamos en este Manifiesto:
               </p>
                   <strong>
                   We call it Neocratia and our mission is to upgrade the way our laws are created and societies govern themselves.

@@ -8,6 +8,7 @@
     "keep_posted_form_sent": "We’ll keep you posted. As soon as there are enough people interested in your area, we'll help you lead or become part of your own local revolution",
     "stay_informed": "Stay Informed",
     "learn": "Learn when Neocratia gets to your area",
+    "volunteer": "Volunteer",
     "lead_local_movement": "Lead your local movement",
     "contribute_open_source": "Contribute to the open source platform",
     "donate": "Donate",
@@ -22,7 +23,8 @@
     "main_heading": "Let’s upgrade the way our laws are created",
     "subheading":{
       "line1": "We are tired of corruption, big money influencing our laws, and stupid political discourse. Democracy must be honest and efficient, but the system is broken",
-      "line2": "Neocratia’s goal is to upgrade the way our laws are created"
+      "line2": "Neocratia’s goal is to upgrade the way our laws are created",
+      "line3": "We’re global, ambitious, and non-for-profit"
     },
     "text": ""
   },
