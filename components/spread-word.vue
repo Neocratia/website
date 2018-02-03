@@ -3,7 +3,7 @@
       <v-container fluid grid-list-lg>
         <v-layout column align-center justify-center>
           <v-card-title primary-title class="title">
-            Spread the word:
+            {{ $t('global.spread_the_word') }}:
           </v-card-title>
           <div class="mb-4 spread-the-word">
             <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.neocratia.org/" target="_blank" class="button">

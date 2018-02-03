@@ -4,33 +4,28 @@
   },
   "global": {
     "choose_one_or_more": "Selecciona uno o más",
-    "thanks_form_sent": "We have received your information. Thanks for your interest!",
+    "thanks_form_sent": "Hemos recibido su información. ¡Gracias por el interés!",
     "keep_posted_form_sent": "We’ll keep you posted. As soon as there are enough people interested in your area, we'll help you lead or become part of your own local revolution",
-    "stay_informed": "Stay Informed",
-    "learn": "Learn when Neocratia gets to your area",
-    "volunteer": "Voluntario",
-    "lead_local_movement": "Lead your local movement",
-    "contribute_open_source": "Contribute to the open source platform",
-    "donate": "Donate",
-    "join": "JOIN",
-    "your_email_address": "Your email address",
-    "spread_the_word": "Spread the word",
+    "stay_informed": "Estar informado",
+    "learn": "Conocer cuando Neocracia llegue a su área",
+    "volunteer": "Ser voluntario",
+    "lead_local_movement": "Liderar su movimiento local",
+    "contribute_open_source": "Contribuir a la plataforma de código abierto",
+    "donate": "Donar",
+    "join": "UNIRSE",
+    "your_email_address": "Dirección de correo elctrónico",
+    "spread_the_word": "Difundir",
     "learn_more": "Conoce más",
-    "social_networks_message": "Let’s upgrade the way our laws are created https%3A//www.neocratia.org/"  
+    "social_networks_message": "Mejoremos la forma en la que nuestras leyes son creadas https%3A//www.neocratia.org/"  
   },
   "home": {
     "main_heading": "Mejoremos la forma en la que nuestras leyes son creadas",
     "subheading":{
       "line1": "Estamos cansados de corrupción, dinero influenciando nuestras leyes, y el discurso político estúpido. La democracia debe ser honesta y eficiente, pero el sistema está roto",
-      "line2": "EL objetivo de Neocratia es mejorar la forma en que se crean nuestras leyes",
-      "line3": "We’re global, ambitious, and non-for-profit"
+      "line2": "El objetivo de Neocratia es mejorar la forma en que se crean nuestras leyes",
+      "line3": "Somos globales, ambiciosos y sin ánimo de lucro"
     },
     "text": ""
-  },
-  "manifesto": {
-    "our_manifesto": "Our manifesto",
-    "origin_neocratia": "The origins of Neocratia",
-    "proposal_process": "The proposal process"   
   },
   "team": {
     "headline": "En Neocratia, todos somos voluntarios",

@@ -30,7 +30,7 @@
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Los origenes de Neocratia</div>
+          <div slot="header">Los origenes de Neocracia</div>
           <v-card>
             <v-card-text class="grey lighten-4">
               <p>Neocracia inició cuando un grupo de personas con diversos ideales nos reunimos y nos preguntamos:</p>
@@ -150,7 +150,7 @@
               <p name="30c1" id="30c1" class="graf graf--p graf-after--p">Actualmente estamos construyendo una plataforma de código abierto llamada <a href="https://neocratium.org" target="_blank">Neocratium</a>, y alentamos a que se construyan alternativas.(Con gusto daremos consejo.) Neocratium le permitirá a las comunidades de todo tipo y tamaño - incluso las no politicas - administrar sus democracias. Una vez Neocratium esté listo, los grupos podrán crear comunidades usando la versión hospedada, o descargar el código fuente e instalarlo en su propio servidor.</p>
               <p name="ae80" id="ae80" class="graf graf--p graf-after--p">Cuando una comunidad usa Neocratium, las configuraciones de la plataforma serán manejadas por un equipo de administradores. Los administradores de la plataforma serán elegidos por la rama ejecutiva del gobierno de cada comunidad (siguiendo procedimientos similares a la convención democratica actual). Cada ciudadano tendrá una cuenta provista y/o aprobada por los administradores. Neocratium ofrecerá autenticación con IDs electronicas ofrecidas ya por numerosos gobiernos.</p>
               <p name="eac4" id="eac4" class="graf graf--p graf-after--p">Neocracia trabajará con los cuerpos de administración electoral y otras ONGs para garantizar que Neocratium y las otras plataformas electrónicas trabajan con el objetivo de prevenir, grabar y reportar cualquier posible fraude electoral.</p>
-              <p name="c7ce" id="c7ce" class="graf graf--p graf-after--p">Si esta interesado en ayudar a crear Neocratium como voluntario, por favor contactenos en neocratium@neocratia.org.</p>
+              <p name="c7ce" id="c7ce" class="graf graf--p graf-after--p">Si esta interesado en ayudar a crear Neocratium como voluntario, por favor contactenos en neocratium@neocratia.org</p>
               <p name="4b61" id="4b61" class="graf graf--p graf-after--p graf--trailing">Si está considerando construir o adaptar una plataforma basada en los principios y valores de Neocracia, podemos ayudar. Contactenos en build@neocratia.org.</p>
             </v-card-text>
           </v-card>
@@ -183,7 +183,7 @@
         </v-expansion-panel-content>
 
         <v-expansion-panel-content ripple>
-          <div slot="header">Financiación de Neocratia</div>
+          <div slot="header">Financiación de Neocracia</div>
           <v-card>
             <v-card-text class="grey lighten-4">
               Neocracia es un esfuerzo sin ánimo de lucro que depende de donaciones de gente como usted. Estamos cansados de corporaciones que influencian politicas. Por eso, Neocracia solo aceptará donaciones de individuos. Incluso así, limitaremos la cantidad para evitar depender demasiado en una sola persona.
