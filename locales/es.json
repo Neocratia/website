@@ -4,41 +4,41 @@
   },
   "global": {
     "choose_one_or_more": "Selecciona uno o más",
-    "thanks_form_sent": "We have received your information. Thanks for your interest!",
-    "keep_posted_form_sent": "We’ll keep you posted. As soon as there are enough people interested in your area, we'll help you lead or become part of your own local revolution",
-    "stay_informed": "Stay Informed",
-    "learn": "Learn when Neocratia gets to your area",
+    "thanks_form_sent": "Hemos recibido tu información. ¡Gracias por tu interés!",
+    "keep_posted_form_sent": "Te mantendremos informado. Tan pronto como haya suficientes personas interesadas en tu área, The ayudaremos a liderar o a convertirte en parte de tu propia revolución local",
+    "stay_informed": "Mantenerme informado",
+    "learn": "Conoce cuándo Neocracia llegará a tu área",
     "volunteer": "Voluntario",
-    "lead_local_movement": "Lead your local movement",
-    "contribute_open_source": "Contribute to the open source platform",
-    "donate": "Donate",
-    "join": "JOIN",
-    "your_email_address": "Your email address",
-    "spread_the_word": "Spread the word",
+    "lead_local_movement": "Liderar tu movimiento local",
+    "contribute_open_source": "Contribuir a la plataforma open source",
+    "donate": "Donar",
+    "join": "UNIRSE",
+    "your_email_address": "Tu dirección de correo electrónico",
+    "spread_the_word": "Difunde la palabra",
     "learn_more": "Conoce más",
-    "social_networks_message": "Let’s upgrade the way our laws are created https%3A//www.neocratia.org/"  
+    "social_networks_message": "Vamos a mejorar la forma en la que nuestras leyes son creadas https%3A//www.neocratia.org/"  
   },
   "home": {
     "main_heading": "Mejoremos la forma en la que nuestras leyes son creadas",
     "subheading":{
-      "line1": "Estamos cansados de corrupción, dinero influenciando nuestras leyes, y el discurso político estúpido. La democracia debe ser honesta y eficiente, pero el sistema está roto",
-      "line2": "EL objetivo de Neocratia es mejorar la forma en que se crean nuestras leyes",
-      "line3": "We’re global, ambitious, and non-for-profit"
+      "line1": "Estamos cansados de la corrupción, del dinero influenciando nuestras leyes, y del discurso político estúpido. La democracia debe ser honesta y eficiente, pero el sistema está roto",
+      "line2": "EL objetivo de Neocracia es mejorar la forma en la que se crean nuestras leyes",
+      "line3": "Somos globales, ambiciosos, y sin ánimo de lucro"
     },
     "text": ""
   },
   "manifesto": {
-    "our_manifesto": "Our manifesto",
-    "origin_neocratia": "The origins of Neocratia",
-    "proposal_process": "The proposal process"   
+    "our_manifesto": "Nuestro manifiesto",
+    "origin_neocratia": "Los orígenes de Neocracia",
+    "proposal_process": "El proceso propuesto"   
   },
   "team": {
-    "headline": "En Neocratia, todos somos voluntarios",
+    "headline": "En Neocracia, todos somos voluntarios",
     "learn_more": "VER MÁS",
-    "alexander_torrenegra_description": "Alexander Torrenegra is a Colombian-American activist and entrepreneur. He founded multiple companies including Torre, Bunny Inc., and Voice123. He was featured in MIT’s Technology Review as Colombia’s Top Young Innovator of 2012. In 2015, he joined the World Economic Forum’ Young Global Leaders community. In the US, Alexander is an activist that pushes for immigration reform. In Colombia, he works to improve government support for innovation. Alexander is the founder of Neocratia.",
-    "andres_gonzalez_description": "Andres is a software developer, entrepreneur and tech enthusiast. Originary from Colombia, he has been in the software industry for more than 10 years leading projects for companies around the world. He is the founder and technical leader of Swapps a software development company based in  Colombia. He is the maintainer of the Neocratium platform.",
-    "helena_schwertheim_description": "Helena is passionate about innovating for a more accountable democracy. Originally from New Zealand, she has a background in political studies, sociology and international relations, having lived and studied in Australia, Colombia, Spain and France, and is now based in Sweden. During the day Helena is a researcher, analysing democratic trends. By night she works with Neocrats to upgrade how laws are made.",
-    "rolf_veldman_description": "<p>Rolf is a project manager and change manager with a passion for creative writing and 'Learning organizations'. </p><p>Curiosity is the driving force behind his ambition. This attitude leads Rolf to be creative, assertive and open minded. Fueled by his academic education in political history Rolf has always had a more than average interest in politics. He joined Neocratia in November 2017 and is responsible for Recruitment, Fundraising and Political Advice.</p>",
+    "alexander_torrenegra_description": "Alexander Torrenegra es un emprendedor y activista colombo americano. Ha fundado múltiples companías como Torre, Bunny Inc., y Voice123. Fue nombrado como el mejor joven innovador de Colombia del 2012 en la MIT’s Technology Review. En 2015, Torrenegra se unió al World Economic Forum’ Young Global Leaders community. En los Estados Unidos, Alexander is un activista que trabaja por la reforma migratoria. En Colombia, él trabaja para mejorar el apoyo dado por el gobierno a los emprendedores. Alexander es el fundador de Neocracia.",
+    "andres_gonzalez_description": "Andrés es un desarrollador de software, emprendedor y entusiasta de la tecnología. Nacido en Colombia, Andrés ha trabajado en la industria del software por más de 10 años, liderando proyectos para compañias alrededor del mundo. Él es el fundador y el líder técnico de Swapps; una companía de desarrollo de software en Colombia. Él es el responsable de la plataforma Neocratium.",
+    "helena_schwertheim_description": "Helena es una apasionada por innovar para generar una democracia más transparente. Nacida en Nueva Zelanda, tiene formación en estudios políticos, sociología y relaciones internacionales. Ha vivido y estudiado en Australia, Colombia, España, Francia y Suecia, donde actualmente reside. Durante el día, Helena es investigadora, analizando las tendencias democráticas. En la noche, Ella trabaja con Neócratas para mejorar la forma en la que las leyes son creadas.",
+    "rolf_veldman_description": "<p>Rolf es un administrador de proyectos y de cambio organizacional apasionado por la escritura creativa y las 'Organizaciones de aprendizaje'. </p><p>La curiosidad es la fuerza motora detrás de su ambición. Esta actitud hace que Rolf sea creativo, positivo y de mente abierta. Gracias a su educación académica en historia política, Rolf siempre ha tenido un gran interés por la política. Se unió a Neocracia en noviembre del 2017 y es el responsable por el reclutamiento,la recaudación de fondos y la asesoría política.</p>",
     "asdasd": ""
   }
 }
