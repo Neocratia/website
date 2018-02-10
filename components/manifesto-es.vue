@@ -22,8 +22,8 @@
               <p> El plan de acción es simple y a la vez ambicioso, pero no imposible:</p>
 
               <ul>
-                <li>Lanza o apoya una propuesta para obtener puestos en tu cuerpo legislativo local.</li>
-                <li>Una vez elegida tu campaña, actualiza tu cuerpo legislativo a través de una plataforma tecnológica en donde se puedan proponer iniciativas, se puedan debatir las ideas de manera reflexiva y pública, todos puedan votar de manera privada, se puedan elegir y examinar los representantes y las decisiones se hagan con la mayor transparencia.</li>
+                <li>Lanza o apoya una propuesta para obtener puestos en el cuerpo legislativo local.</li>
+                <li>Una vez elegida la campaña, reemplaza el cuerpo legislativo a través de una plataforma tecnológica en donde se puedan proponer iniciativas, se puedan debatir las ideas de manera reflexiva y pública, todos puedan votar de manera privada, se puedan elegir y examinar los representantes y las decisiones se hagan con la mayor transparencia.</li>
               </ul>
               <p>La visión de Neocracia puede parecer utópica para algunos, pero también lo fueron las ideas cuando se habló por primera vez de la democracia o sobre los derechos humanos universales. Juntos podemos hacer realidad Neocracia, no será perfecta y no será fácil, pero es momento de iniciar el cambio.   Debemos mejorar y hacer que las cosas sigan adelante. Si quieres un cambio, todo lo que debes hacer es dar <a href="#card-join" class="v-smooth-scroll">clic aquí </a> y enviarnos tu correo electrónico. Tan pronto como se reúnan las suficientes personas interesadas en el cambio en tu área, te ayudaremos a liderar o a ser parte del movimiento. Recuerda que si no haces nada por el cambio, sólo estás perpetuando el problema, ¡la decisión es tuya!</p>
             </v-card-text>
