@@ -24,7 +24,7 @@
 
               <ul>
                 <li>Launch or support a campaign to get enough seats in your local legislative body</li>
-                <li>Once elected, upgrade the legislative body with a technology platform where initiatives can be proposed, ideas can be thoughtfully and publicly debated, votes can be cast privately, representatives can be picked and scrutinized, and decisions can be made with transparency</li>
+                <li>Once elected, supersede the legislative body with a technology platform where initiatives can be proposed, ideas can be thoughtfully and publicly debated, votes can be cast privately, representatives can be picked and scrutinized, and decisions can be made with transparency</li>
               </ul>
               <p>Neocratia’s vision may appear utopic to many, but so too were the ideas of true democracy and universal human rights. Together, we can make Neocratia a reality. It won’t be perfect and it won’t be easy, but we must start somewhere. We must iterate, improve, and move things forward. All you have to do is send us your email address <a href="#card-join" class="v-smooth-scroll">above</a>. As soon as enough people in your area are interested, we’ll help you lead or become a member of your own local movement. Please remember that if you do nothing, you are actually perpetuating the problem — the choice is yours.</p>
             </v-card-text>
