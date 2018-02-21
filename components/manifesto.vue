@@ -11,7 +11,7 @@
           <v-card>
             <v-card-text class="grey lighten-4">
               <p>We are tired of corruption, big money influencing our laws, and stupid political discourse. The system is broken. It needs a major upgrade.</p>
-              <p>We believe that democracy must be honest, efficient, and corruption-free.</p>
+              <p>We believe that democracy must be honest, productive, and corruption-free.</p>
               <p>Let’s upgrade the way our laws are created. Here’s how:</p>
               <p>We believe that all citizens should be able to propose initiatives, thoughtfully discuss matters, and co-create laws. We believe that laws should be made with transparency and not behind closed doors. The actions and votes of representatives should be visible to others.</p>
               <p>We believe citizens should always have the choice of voting directly for laws or delegating their vote to others. Citizens should be able the select the representatives they want at anytime and change them immediately when they feel they no longer represent them.</p>
