@@ -15,16 +15,15 @@
               <p>Let’s upgrade the way our laws are created. Here’s how:</p>
               <p>We believe that all citizens should be able to propose initiatives, thoughtfully discuss matters, and co-create laws. We believe that laws should be made with transparency and not behind closed doors. The actions and votes of representatives should be visible to others.</p>
               <p>We believe citizens should always have the choice of voting directly for laws or delegating their vote to others. Citizens should be able the select the representatives they want at anytime and change them immediately when they feel they no longer represent them.</p>
-              <p>We believe that becoming a representative shouldn’t mean selling your soul to the political machine. It should be easy for any citizen to be able to represent others. A few or many.
-              All of us, together, can have a massive impact on the laws that affect us.</p>
+              <p>We believe that becoming a representative shouldn’t mean selling your soul to the political machine. It should be easy for any citizen to be able to represent others. A few or many.</p>
 
               <p>All of us, together, can have a massive impact on the laws that affect us.</p>
 
               <p>Become part of your own local revolution. The plan of action is simple, yet ambitious:</p>
 
               <ul>
-                <li>Launch or support a campaign to get enough seats in your local legislative body</li>
-                <li>Once elected, supersede the legislative body with a technology platform where initiatives can be proposed, ideas can be thoughtfully and publicly debated, votes can be cast privately, representatives can be picked and scrutinized, and decisions can be made with transparency</li>
+                <li>Launch or support a campaign to get enough seats in your local legislative body.</li>
+                <li>Once elected, supersede the legislative body with a technology platform where initiatives can be proposed, ideas can be thoughtfully and publicly debated, votes can be cast privately, representatives can be picked and scrutinized, and decisions can be made with transparency.</li>
               </ul>
               <p>Neocratia’s vision may appear utopic to many, but so too were the ideas of true democracy and universal human rights. Together, we can make Neocratia a reality. It won’t be perfect and it won’t be easy, but we must start somewhere. We must iterate, improve, and move things forward. All you have to do is send us your email address <a href="#card-join" class="v-smooth-scroll">above</a>. As soon as enough people in your area are interested, we’ll help you lead or become a member of your own local movement. Please remember that if you do nothing, you are actually perpetuating the problem — the choice is yours.</p>
             </v-card-text>
