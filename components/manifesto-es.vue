@@ -7,33 +7,33 @@
       </v-layout>
       <v-expansion-panel class="mb-3">
         <v-expansion-panel-content ripple>
-          <div slot="header">Nuestro manifesto</div>
+          <div slot="header">Nuestro manifiesto</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p>Estamos cansados de la corrupción, de las largas sumas de dinero que influencian nuestras leyes y de los discursos políticos sin sentido. El sistema político actual no funciona y necesita mejoras significativas.</p>
-              <p>Creemos que la democracia debe ser honesta, eficiente y libre de corrupción.</p>
-              <p>Mejoremos juntos la manera en que nuestras leyes son creadas, aquí les mostraremos como podemos hacer esto juntos:</p>
-              <p>Estamos convencidos que todos los ciudadanos tienen la capacidad de proponer iniciativas, discutir temas relevantes y colaborar en la creación de leyes que sean hechas con transparencia y no a puertas cerradas y creemos que las acciones y los votos de todos los representantes deberían ser visibles para todos.</p>
-              <p>Creemos que todos los ciudadanos tienen el derecho de votar directamente por las leyes o de poder delegar su voto a otros. De la misma manera, los ciudadanos deben tener el derecho a poder cambiar sus representantes cada vez que no se sientan representados por ellos.</p>
-              <p>Creemos que convertirse en un representante no significa vender el alma a la maquinaria política. Debería ser aún más sencillo para cualquier ciudadano poder representar a otros, ya sean muchos o pocos.</p>
+              <p>Estamos cansados de la corrupción, de los grandes poderes económicos que influencian nuestras leyes y de los discursos políticos sin sentido. El sistema político actual no funciona. Necesita mejoras significativas.</p>
+              <p>Creemos que la democracia debe ser honesta, productiva y libre de corrupción.</p>
+              <p>Mejoremos la forma en que nuestras leyes son creadas. Aquí les mostramos cómo:</p>
+              <p>Creemos que todos los ciudadanos deben poder proponer iniciativas, discutir temas concienzudamente y crear leyes en conjunto. Creemos que las leyes deben ser creadas con transparencia y no a puerta cerrada. Las acciones y los votos de todos los representantes deberían ser visibles para todos.</p>
+              <p>Creemos que los ciudadanos deben tener el derecho a votar directamente por sus leyes o delegar su voto a otros. De la misma manera, los ciudadanos poder elegir y cambiar sus representantes cada vez que no se sientan representados por ellos.</p>
+              <p>Creemos que ser un representante no puede significar vender su alma a la maquinaria política. Debería ser aún más sencillo para cualquier ciudadano poder representar a otros, ya sean muchos o pocos.</p>
 
-              <p>Juntos podemos tener y generar un gran impacto en las leyes que nos afectan y hacer parte de nuestra propia revolución. </p>
+              <p>Juntos podemos tener y generar un gran impacto en las leyes que nos afectan a todos. </p>
 
-              <p> El plan de acción es simple y a la vez ambicioso, pero no imposible:</p>
+              <p>Sé parte de tu propia revolución local. El plan de acción es simple y a la vez ambicioso:</p>
 
               <ul>
-                <li>Lanza o apoya una propuesta para obtener puestos en el cuerpo legislativo local.</li>
-                <li>Una vez elegida la campaña, reemplaza el cuerpo legislativo a través de una plataforma tecnológica en donde se puedan proponer iniciativas, se puedan debatir las ideas de manera reflexiva y pública, todos puedan votar de manera privada, se puedan elegir y examinar los representantes y las decisiones se hagan con la mayor transparencia.</li>
+                <li>Lanzar o apoyar una campaña para obtener puestos en el organismo legislativo local.</li>
+                <li>Una vez elegidos, reemplazar el cuerpo legislativo con una plataforma tecnológica en donde se puedan proponer iniciativas, se puedan debatir las ideas de manera reflexiva y pública, todos puedan votar de manera privada, se puedan elegir y examinar los representantes y las decisiones se hagan con la mayor transparencia.</li>
               </ul>
-              <p>La visión de Neocracia puede parecer utópica para algunos, pero también lo fueron las ideas cuando se habló por primera vez de la democracia o sobre los derechos humanos universales. Juntos podemos hacer realidad Neocracia, no será perfecta y no será fácil, pero es momento de iniciar el cambio.   Debemos mejorar y hacer que las cosas sigan adelante. Si quieres un cambio, todo lo que debes hacer es dar <a href="#card-join" class="v-smooth-scroll">clic aquí </a> y enviarnos tu correo electrónico. Tan pronto como se reúnan las suficientes personas interesadas en el cambio en tu área, te ayudaremos a liderar o a ser parte del movimiento. Recuerda que si no haces nada por el cambio, sólo estás perpetuando el problema, ¡la decisión es tuya!</p>
+              <p>La visión de Neocratia puede parecer utópica para algunos, pero también lo fueron las ideas cuando se habló por primera vez de la democracia o sobre los derechos humanos universales. Juntos podemos hacer realidad Neocratia, no será perfecta y no será fácil, pero es momento de iniciar el cambio.   Debemos mejorar y hacer que las cosas sigan adelante. Si quieres un cambio, todo lo que debes hacer es dar <a href="#card-join" class="v-smooth-scroll">clic aquí </a> y enviarnos tu correo electrónico. Tan pronto como se reúnan las suficientes personas interesadas en el cambio en tu área, te ayudaremos a liderar o a ser parte del movimiento. Recuerda que si no haces nada por el cambio, sólo estás perpetuando el problema, ¡la decisión es tuya!</p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Los origenes de Neocracia</div>
+          <div slot="header">Los origenes de Neocratia</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p>Neocracia inició cuando un grupo de personas con diversos ideales nos reunimos y nos preguntamos:</p>
+              <p>Neocratia inició cuando un grupo de personas con diversos ideales nos reunimos y nos preguntamos:</p>
               <p>
                   <strong>“Si la democracia fuera inventada hoy, ¿cómo sería?”</strong>
               </p>
@@ -57,17 +57,17 @@
                 Luego de dos años de investigación y experimentos, identificamos las ideas más prometedoras y las combinamos en este Manifiesto:
               </p>
                   <strong>
-                  Lo llamamos Neocracia y nuestra misión es actualizar la forma en que nuestras leyes son creadas y las sociedades se gobiernan a si mismas.
+                  Lo llamamos Neocratia y nuestra misión es actualizar la forma en que nuestras leyes son creadas y las sociedades se gobiernan a si mismas.
                 </strong>
               </p>
               <p>
-                Quienes estamos en Neocracia somos activistas que continuamos comprometidos con mejorar la democracia. Creemos que igual que cuando se lanza una piedra al agua, las ondas que se generan alcanzarán eventualmente la costa más lejana.
+                Quienes estamos en Neocratia somos activistas que continuamos comprometidos con mejorar la democracia. Creemos que igual que cuando se lanza una piedra al agua, las ondas que se generan alcanzarán eventualmente la costa más lejana.
               </p>
               <p>
                 Hoy más que nunca los ciudadanos normales tienen que involucrarse, necesitan levantarse y ser tomados en cuenta, necesitan unir fuerzas para generar cambios en las mecanicas del gobierno.
               </p>
               <p>
-                Neocracia puede tener éxito de muchas maneras: Puede permitir la creación y la mejora de miles de democracias, grandes y pequeñas, volverse la rama legislativa de democracias existentes, hacer la democracia parte de nuestras vidas diarias, permitirle a los introvertidos volverse lideres politicos, y más. Esperamos, al menos, inspirar a otros para mejorar el gobierno de la gente, por la gente y para la gente. 
+                Neocratia puede tener éxito de muchas maneras: Puede permitir la creación y la mejora de miles de democracias, grandes y pequeñas, volverse la rama legislativa de democracias existentes, hacer la democracia parte de nuestras vidas diarias, permitirle a los introvertidos volverse lideres politicos, y más. Esperamos, al menos, inspirar a otros para mejorar el gobierno de la gente, por la gente y para la gente. 
               </p>
             </v-card-text>
           </v-card>
@@ -130,7 +130,7 @@
               <img src="~/assets/delegation_graph-min.png" class="img-responsive">
               <p name="a765" id="a765" class="graf graf--p graf-after--figure">Los representantes tienen un peso para su voto. Este peso es la suma de todos los votos delegados a un representante más el voto propio del representante. El representante puede también elegir sus propios representantes y delegar todo su peso.</p>
               <p name="20ec" id="20ec" class="graf graf--p graf-after--p">En una comunidada Neocratica, todos los ciudadanos pueden permitir a otros elegirlos como representantes. El único requerimiento es su acuerdo en hacer todos los votos de forma transparente y visible a los demas y aceptar que su trabajo es voluntario. Similar a la forma en que voluntarios han creado Wikipedia y la han hecho mas amplia, justa, y más precisa que las enciclopedias previas creadas por editores pagos, creemos que muchos representantes voluntarios harán un mejor trabajo que unos pocos politicos dependientes de su salario.</p>
-              <p name="8aef" id="8aef" class="graf graf--p graf-after--p">Los ciudadanos de Neocracia pueden elegir los representantes que quieren en cualquier momento y cambiarlos en cuanto sientan que no están siendo bien representados.</p>
+              <p name="8aef" id="8aef" class="graf graf--p graf-after--p">Los ciudadanos de Neocratia pueden elegir los representantes que quieren en cualquier momento y cambiarlos en cuanto sientan que no están siendo bien representados.</p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
@@ -143,15 +143,15 @@
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Neocracia y su plataforma electrónica</div>
+          <div slot="header">Neocratia y su plataforma electrónica</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p name="9c8f" id="9c8f" class="graf graf--p graf-after--h3">Los valores y principios de Neocracia requieren de una plataforma electrónica segura y confiable.</p>
+              <p name="9c8f" id="9c8f" class="graf graf--p graf-after--h3">Los valores y principios de Neocratia requieren de una plataforma electrónica segura y confiable.</p>
               <p name="30c1" id="30c1" class="graf graf--p graf-after--p">Actualmente estamos construyendo una plataforma de código abierto llamada <a href="https://neocratium.org" target="_blank">Neocratium</a>, y alentamos a que se construyan alternativas.(Con gusto daremos consejo.) Neocratium le permitirá a las comunidades de todo tipo y tamaño - incluso las no politicas - administrar sus democracias. Una vez Neocratium esté listo, los grupos podrán crear comunidades usando la versión hospedada, o descargar el código fuente e instalarlo en su propio servidor.</p>
               <p name="ae80" id="ae80" class="graf graf--p graf-after--p">Cuando una comunidad usa Neocratium, las configuraciones de la plataforma serán manejadas por un equipo de administradores. Los administradores de la plataforma serán elegidos por la rama ejecutiva del gobierno de cada comunidad (siguiendo procedimientos similares a la convención democratica actual). Cada ciudadano tendrá una cuenta provista y/o aprobada por los administradores. Neocratium ofrecerá autenticación con IDs electronicas ofrecidas ya por numerosos gobiernos.</p>
-              <p name="eac4" id="eac4" class="graf graf--p graf-after--p">Neocracia trabajará con los cuerpos de administración electoral y otras ONGs para garantizar que Neocratium y las otras plataformas electrónicas trabajan con el objetivo de prevenir, grabar y reportar cualquier posible fraude electoral.</p>
+              <p name="eac4" id="eac4" class="graf graf--p graf-after--p">Neocratia trabajará con los cuerpos de administración electoral y otras ONGs para garantizar que Neocratium y las otras plataformas electrónicas trabajan con el objetivo de prevenir, grabar y reportar cualquier posible fraude electoral.</p>
               <p name="c7ce" id="c7ce" class="graf graf--p graf-after--p">Si está interesado en ayudar a crear Neocratium como voluntario, por favor contactenos en neocratium@neocratia.org.</p>
-              <p name="4b61" id="4b61" class="graf graf--p graf-after--p graf--trailing">Si está considerando construir o adaptar una plataforma basada en los principios y valores de Neocracia, podemos ayudar. Contactenos en build@neocratia.org.</p>
+              <p name="4b61" id="4b61" class="graf graf--p graf-after--p graf--trailing">Si está considerando construir o adaptar una plataforma basada en los principios y valores de Neocratia, podemos ayudar. Contactenos en build@neocratia.org.</p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
@@ -164,16 +164,16 @@
 
                   <li name="8cbf" id="8cbf" class="graf graf--li graf-after--p">Apuntamos a identificar diferentes comunidades alrededor del mundo que estén listas para lanzar una campaña exitosa para obtener suficientes puestos en su cuerpo legislativo local;</li>
                   <li name="c6ea" id="c6ea" class="graf graf--li graf-after--li">Una vez elegidos, ellos actualizan su cuerpo legislativo con una plataforma tecnológica(<a href="https://neocratium.org" target="_blank">Neocratium</a> o una alternativa) donde las iniciativas sean propuestas, debatidas y los votos sean hechos de forma privada. Los representantes son constantemente escudriñados, y las decisiones son tomadas con transparencia.</li>
-                  <li name="153f" id="153f" class="graf graf--li graf-after--li">Una vez se haya mostrado que Neocracia funciona en unas cuantas comunidades, apuntamos a hacerlo en tantas como podamos alrededor del mundo.</li>
+                  <li name="153f" id="153f" class="graf graf--li graf-after--li">Una vez se haya mostrado que Neocratia funciona en unas cuantas comunidades, apuntamos a hacerlo en tantas como podamos alrededor del mundo.</li>
               </ol>
               <p name="301f" id="301f" class="graf graf--p graf-after--li">El camino para cada comunidad:</p>
               <ol class="postList">
-                  <li name="c03d" id="c03d" class="graf graf--li graf-after--p">Los miembros de una comunidad se comprometen a elegir representantes de Neocracia en sus elecciones tradicionales;</li>
+                  <li name="c03d" id="c03d" class="graf graf--li graf-after--p">Los miembros de una comunidad se comprometen a elegir representantes de Neocratia en sus elecciones tradicionales;</li>
                   <li name="c85c" id="c85c" class="graf graf--li graf-after--li">Si es requerido, el movimiento local completa el papeleo para elgir los representantes a la oficina pública - como por ejemplo registrar un partido politico, recolectar firmas, etc.;</li>
                   <li name="2be8" id="2be8" class="graf graf--li graf-after--li">Si se hacen suficientes compromisos, los comprometidos votan por los candidatos cuando las elecciones sucedan;</li>
-                  <li name="a2c7" id="a2c7" class="graf graf--li graf-after--li">Una vez elegidos, los representantes de Neocracia pasan las leyes requeridas para actualizar el cuerpo legislativo con una platarforma de tecnología (Neocratium o una alternativa).</li>
+                  <li name="a2c7" id="a2c7" class="graf graf--li graf-after--li">Una vez elegidos, los representantes de Neocratia pasan las leyes requeridas para actualizar el cuerpo legislativo con una platarforma de tecnología (Neocratium o una alternativa).</li>
               </ol>
-              <p name="aed1" id="aed1" class="graf graf--p graf-after--li">Si un número insuficiente de representantes de Neocracia son elegidos para pasar la legislación requerida para actualizar el cuerpo legislativo, esos representantes actuarán como apoderados hasta el próximo ciclo de elecciones.</p>
+              <p name="aed1" id="aed1" class="graf graf--p graf-after--li">Si un número insuficiente de representantes de Neocratia son elegidos para pasar la legislación requerida para actualizar el cuerpo legislativo, esos representantes actuarán como apoderados hasta el próximo ciclo de elecciones.</p>
               <p name="21c9" id="21c9" class="graf graf--p graf-after--p">Los representantes que actuan como apoderados son intermediarios entre el grupo que los eligió y la oficina pública para la que fueron elegidos. Sus acciones están dictaminadas por las decisiones del grupo usando Neocratium.</p>
               <p name="517b" id="517b" class="graf graf--p graf-after--p">Los representantes que actúen como apoderados no tendrán una opinión propia. Serán responsables por sus acciones dado que su reputación está en la línea. Si un representante no cumple con su trabajo, y dependiendo de la legislación vigente, el grupo que lo eligió podría impugnarlo.</p>
               <p>
@@ -184,20 +184,20 @@
         </v-expansion-panel-content>
 
         <v-expansion-panel-content ripple>
-          <div slot="header">Financiación de Neocracia</div>
+          <div slot="header">Financiación de Neocratia</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              Neocracia es un esfuerzo sin ánimo de lucro que depende de donaciones de gente como usted. Estamos cansados de corporaciones que influencian politicas. Por eso, Neocracia solo aceptará donaciones de individuos. Incluso así, limitaremos la cantidad para evitar depender demasiado en una sola persona.
+              Neocratia es un esfuerzo sin ánimo de lucro que depende de donaciones de gente como usted. Estamos cansados de corporaciones que influencian politicas. Por eso, Neocratia solo aceptará donaciones de individuos. Incluso así, limitaremos la cantidad para evitar depender demasiado en una sola persona.
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
 
         <v-expansion-panel-content ripple>
-          <div slot="header">¿Cómo está estructurada Neocracia?</div>
+          <div slot="header">¿Cómo está estructurada Neocratia?</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p name="769c" id="769c" class="graf graf--p graf-after--h3">Neocracia es un movimiento global que tendrá capítulos autónomos locales. Localmente, Neocracia tomará diferentes estructuras legales dependiendo de las leyes locales y los requerimientos para recibir donaciones y tener candidatos electos en oficinas públicas. Puede ser una ONG, un partido politico, o un movimiento que no tiene estructura legal.</p>
-              <p name="4584" id="4584" class="graf graf--p graf-after--p">Globalmente, Neocracia estará gobernada por una junta de directores que elige a un director ejecutivo.</p>
+              <p name="769c" id="769c" class="graf graf--p graf-after--h3">Neocratia es un movimiento global que tendrá capítulos autónomos locales. Localmente, Neocratia tomará diferentes estructuras legales dependiendo de las leyes locales y los requerimientos para recibir donaciones y tener candidatos electos en oficinas públicas. Puede ser una ONG, un partido politico, o un movimiento que no tiene estructura legal.</p>
+              <p name="4584" id="4584" class="graf graf--p graf-after--p">Globalmente, Neocratia estará gobernada por una junta de directores que elige a un director ejecutivo.</p>
               
               <strong>Líder del proyecto</strong>
               <br>
