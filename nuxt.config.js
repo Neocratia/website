@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const meta_title = 'Neocratia'
-const meta_description = 'If Democracy wre to be invented today, what would it be like? Meet neocratia'
+const meta_description = 'If democracy were to be invented today, what would it be like? Meet Neocratia'
 const meta_image = '/img/manifesto.png'
 const meta_twitter = '@neocratia1'
 const meta_url = 'https://www.neocratia.org'
