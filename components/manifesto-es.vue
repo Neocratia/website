@@ -7,48 +7,48 @@
       </v-layout>
       <v-expansion-panel class="mb-3">
         <v-expansion-panel-content ripple>
-          <div slot="header">Nuestro manifesto</div>
+          <div slot="header">Nuestro manifiesto</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p>Estamos cansados de la corrupción, de las largas sumas de dinero que influencian nuestras leyes y de los discursos políticos sin sentido.  El sistema político actual no funciona y necesita mejoras significativas.</p>
-              <p>Creemos que la democracia debe ser honesta, eficiente y libre de corrupción.</p>
-              <p>Mejoremos juntos la manera en que nuestras leyes son creadas, aquí les mostraremos como podemos hacer esto juntos:</p>
-              <p>Estamos convencidos que todos los ciudadanos tienen la capacidad de proponer iniciativas, discutir temas relevantes y colaborar en la creación de leyes que sean hechas con transparencia y no a puertas cerradas y creemos que las acciones y los votos de todos los representantes deberían ser visibles para todos.</p>
-              <p>Creemos que todos los ciudadanos tienen el derecho de votar directamente por las leyes o de poder delegar su voto a otros, de la misma manera, los ciudadanos deben tener el derecho a poder cambiar sus representantes cada vez que no se sientan representados por ellos.</p>
-              <p>Creemos que convertirse en un representante no significa vender el alma a la maquinaria política. Debería ser aún más sencillo para cualquier ciudadano poder representar a otros, ya sean muchos o pocos.</p>
+              <p>Estamos cansados de la corrupción, de los grandes poderes económicos que influencian nuestras leyes y de los discursos políticos sin sentido. El sistema político actual no funciona. Necesita mejoras significativas.</p>
+              <p>Creemos que la democracia debe ser honesta, productiva y libre de corrupción.</p>
+              <p>Mejoremos la forma en que nuestras leyes son creadas. Aquí les mostramos cómo:</p>
+              <p>Creemos que todos los ciudadanos deben poder proponer iniciativas, discutir temas concienzudamente y crear leyes en conjunto. Creemos que las leyes deben ser creadas con transparencia y no a puerta cerrada. Las acciones y los votos de todos los representantes deberían ser visibles para todos.</p>
+              <p>Creemos que los ciudadanos deben tener el derecho a votar directamente por sus leyes o delegar su voto a otros. De la misma manera, los ciudadanos poder elegir y cambiar sus representantes cada vez que no se sientan representados por ellos.</p>
+              <p>Creemos que ser un representante no puede significar vender su alma a la maquinaria política. Debería ser aún más sencillo para cualquier ciudadano poder representar a otros, ya sean muchos o pocos.</p>
 
-              <p>Juntos podemos tener un generar un gran impacto en las leyes que nos afectan y hacer parte de nuestra propia revolución. </p>
+              <p>Juntos podemos tener y generar un gran impacto en las leyes que nos afectan a todos. </p>
 
-              <p> El plan de acción es simple y a la vez ambicioso, pero no imposible:</p>
+              <p>Sé parte de tu propia revolución local. El plan de acción es simple y a la vez ambicioso:</p>
 
               <ul>
-                <li>Lanza o apoya una propuesta para obtener puestos en tu cuerpo legislativo local.</li>
-                <li>Una vez elegida tu campaña, actualiza tu cuerpo legislativo a través de una plataforma tecnológica en donde se puedan proponer iniciativas, se puedan debatir las ideas de manera reflexiva y pública, todos puedan votar de manera privada, se puedan elegir y examinar los representantes y las decisiones se hagan con la mayor transparencia.</li>
+                <li>Lanzar o apoyar una campaña para obtener puestos en el organismo legislativo local.</li>
+                <li>Una vez elegidos, reemplazar el cuerpo legislativo con una plataforma tecnológica en donde se puedan proponer iniciativas, se puedan debatir las ideas de manera reflexiva y pública, todos puedan votar de manera privada, se puedan elegir y examinar los representantes y las decisiones se hagan con la mayor transparencia.</li>
               </ul>
-              <p>La visión de Neocracia puede parecer utópica para algunos, pero también lo fueron las ideas cuando se habló por primera vez de la democracia y sobre los derechos humanos universales. Juntos podemos hacer realidad Neocracia, no será perfecta y no será fácil, pero es momento de iniciar el cambio.   Debemos mejorar y hacer que las cosas sigan adelante. Si quieres un cambio todo lo que debes hacer es <a href="#card-join" class="v-smooth-scroll">clic aquí </a> y enviarnos tu correo electrónico.   Tan pronto como se reúnan las suficientes personas interesadas en el cambio en tu área, te ayudaremos a liderar o a ser parte del movimiento. Recuerda que si no haces nada por el cambio, sólo estás perpetuando el problema, ¡la decisión es tuya!</p>
+              <p>La visión de Neocratia puede parecer utópica para algunos, pero también lo fueron las ideas cuando se habló por primera vez de la democracia o sobre los derechos humanos universales. Juntos podemos hacer realidad Neocratia, no será perfecta y no será fácil, pero es momento de iniciar el cambio.   Debemos mejorar y hacer que las cosas sigan adelante. Si quieres un cambio, todo lo que debes hacer es dar <a href="#card-join" class="v-smooth-scroll">clic aquí </a> y enviarnos tu correo electrónico. Tan pronto como se reúnan las suficientes personas interesadas en el cambio en tu área, te ayudaremos a liderar o a ser parte del movimiento. Recuerda que si no haces nada por el cambio, sólo estás perpetuando el problema, ¡la decisión es tuya!</p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Los orignes de Neocratia</div>
+          <div slot="header">Los origenes de Neocratia</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p>Neocracia inició cuando un grupo de personas con diversos ideales nos reunimos y nos preguntamos: si la democracia fuera inventada hoy, ¿cómo sería?</p>
+              <p>Neocratia inició cuando un grupo de personas con diversos ideales nos reunimos y nos preguntamos:</p>
               <p>
-                  <strong>“If democracy were invented today, what would it be like?”</strong>
+                  <strong>“Si la democracia fuera inventada hoy, ¿cómo sería?”</strong>
               </p>
-              <p>Buscamos el consejo de grandes líderes en diversos sectores e invertimos tiempo y recurso buscando los orígenes de la democracia y, así fue que encontramos nuestra inspiración en el filósofo y político francés, Alexis de Tocqueville. (1805–1859)</p>
+              <p>Buscamos el consejo de grandes líderes en diversos sectores e invertimos tiempo y recursos buscando los orígenes de la democracia. Así fue que encontramos nuestra inspiración en el filósofo y político francés, Alexis de Tocqueville. (1805–1859)</p>
               <p>
-                En 1835, Tocqueville viajó a la democracia más joven del mundo, la democracia estadounidense, y recogió las conclusiones de su análisis en el libro llamado “Democracia en América”.  Tocqueville creía que la democracia tiene la tendencia a degenerarse en un despotismo suave; en donde el país está excedido por una red de complicadas reglas que degradan el proceso democrático. Por consiguiente, cuando las personas están bajo la ilusión de creer que están en control, realmente, poca influencia tienen dentro de las decisiones de sus gobiernos.
+                En 1835, Tocqueville viajó a la democracia más joven del mundo, la democracia estadounidense, y recogió las conclusiones de su análisis en el libro llamado “Democracia en América”.  Tocqueville creía que la democracia tiene la tendencia a degenerarse en un despotismo suave; en donde el país está excedido por una red de complicadas reglas que degradan el proceso democrático. Por consiguiente, cuando las personas están bajo la ilusión de creer que están en control, realmente, tienen poca influencia dentro de las decisiones de sus gobiernos.
               </p>
               <p>
-                Tocqueville pronosticó que la democracia estadounidense sería construida de tal manera que inevitablemente se convertiría en el espiral de una sociedad inundada de personas individualistas que harían poco más que contribuir a una creciente burocracia. Así mismo, las personas entregarían sus responsabilidades comunes y comunales al gobierno olvidándose de sus propios intereses y, quedaría una sociedad dominada por el individualismo y gobernada por la burocracia con un gobierno distante.
+                Tocqueville pronosticó que la democracia estadounidense sería construida de tal manera que inevitablemente se convertiría en la espiral de una sociedad inundada de personas individualistas que harían poco más que contribuir a una creciente burocracia. Así mismo, las personas entregarían sus responsabilidades comunes y comunales al gobierno olvidándose de sus propios intereses y, quedaría una sociedad dominada por el individualismo y gobernada por la burocracia con un gobierno distante.
               </p>
               <p>
                 ¿Suena familiar? Creemos firmemente que Tocqueville describe lo que está sucediendo en este momento alrededor del mundo. Nuestros políticos están desconectados, la burocracia rige los gobiernos y los ciudadanos han perdido su conexión con el origen de la democracia. 
               </p>
               <p>
-                Llevamos a cabo cientos de lluvia de ideas en el tema, si bien hemos encontrado aspectos similares en la democracia en la que vivimos actualmente, de la misma manera, encontramos otras en donde difieren por completo.  Una de ellas, en particular, impactaría sustancialmente la manera en que las democracias funcionan:  <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/62327F513959D0A304D4893B382B992B/S1537592714001595a.pdf/testing_theories_of_american_politics_elites_interest_groups_and_average_citizens.pdf" target="_blank">La creación de las leyes.</a>
+                Llevamos a cabo cientos de lluvia de ideas sobre el tema, si bien hemos encontrado aspectos similares en la democracia en la que vivimos actualmente, de la misma manera, encontramos otras en donde difieren por completo.  Una de ellas, en particular, impactaría sustancialmente la manera en que las democracias funcionan:  <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/62327F513959D0A304D4893B382B992B/S1537592714001595a.pdf/testing_theories_of_american_politics_elites_interest_groups_and_average_citizens.pdf" target="_blank">La creación de las leyes.</a>
               </p>
               <p>
                 Por esta razón, empezamos a programar noches y semanas enteras, para desarrollar un prototipo que nos permita recoger las mejores ideas y hacerlas visibles.
@@ -57,186 +57,187 @@
                 Luego de dos años de investigación y experimentos, identificamos las ideas más prometedoras y las combinamos en este Manifiesto:
               </p>
                   <strong>
-                  We call it Neocratia and our mission is to upgrade the way our laws are created and societies govern themselves.
+                  Lo llamamos Neocratia y nuestra misión es actualizar la forma en que nuestras leyes son creadas y las sociedades se gobiernan a si mismas.
                 </strong>
               </p>
               <p>
-                 We at Neocratia are activists who remain committed to improving democracy. Like casting a pebble into a pond, we believe that in time, the ripple we start will reach the furthest shore.
+                Quienes estamos en Neocratia somos activistas que continuamos comprometidos con mejorar la democracia. Creemos que igual que cuando se lanza una piedra al agua, las ondas que se generan alcanzarán eventualmente la costa más lejana.
               </p>
               <p>
-                  Today more than ever, ordinary citizens need to get involved; they need to stand up and be counted; they need to rally for change in the mechanics of government.
+                Hoy más que nunca los ciudadanos normales tienen que involucrarse, necesitan levantarse y ser tomados en cuenta, necesitan unir fuerzas para generar cambios en las mecanicas del gobierno.
               </p>
               <p>
-                  Neocratia can succeed in many ways: it can enable the creation and improvement of thousands of democracies, big and small, become the legislative branch of existing democracies, make democracy part of our daily lives, enable introverts to become political leaders, and more. We expect, at least, to inspire others to improve the government of the people, by the people, for the people.
+                Neocratia puede tener éxito de muchas maneras: Puede permitir la creación y la mejora de miles de democracias, grandes y pequeñas, volverse la rama legislativa de democracias existentes, hacer la democracia parte de nuestras vidas diarias, permitirle a los introvertidos volverse lideres politicos, y más. Esperamos, al menos, inspirar a otros para mejorar el gobierno de la gente, por la gente y para la gente. 
               </p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">The proposal process</div>
+          <div slot="header">El proceso propuesto</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p name="a80a" id="a80a" class="graf graf--p graf-after--h3">In a Neocratic community, all people eligible to vote for proposed initiatives will be able to do so.</p>
+              <p name="a80a" id="a80a" class="graf graf--p graf-after--h3">En una comunidad Neocratica, toda la gente que tenga permitido votar por las iniciativas propuestas podrá hacerlo.</p>
               <ol class="postList">
-                  <li name="0df6" id="0df6" class="graf graf--li graf-after--p">Initiatives are submitted using an electronic platform;</li>
-                  <li name="824c" id="824c" class="graf graf--li graf-after--li">They are publicly debated by the community;</li>
-                  <li name="2755" id="2755" class="graf graf--li graf-after--li">Should a significant number of citizens show interest in a particular initiative, the drawing up of a draft law is initiated;</li>
-                  <li name="b8e4" id="b8e4" class="graf graf--li graf-after--li">The citizen who initially proposed the initiative may invite others to help draft the law proposal. An online collaboration tool is used (similar to Google Docs, Wikipedia, or Git) Citizens may also discuss the draft as a whole or different parts of it. A log of changes is kept;</li>
-                  <li name="993d" id="993d" class="graf graf--li graf-after--li">When the citizen who initially proposed the initiative decides the drafting process is complete, the law proposal is scheduled for voting.</li>
+                  <li name="0df6" id="0df6" class="graf graf--li graf-after--p">Las iniciativas son enviadas usando una plataforma electrónica;</li>
+                  <li name="824c" id="824c" class="graf graf--li graf-after--li">Son públicamente debatidas por la comunidad;</li>
+                  <li name="2755" id="2755" class="graf graf--li graf-after--li">En caso de que un número significativo de ciudadanos muestre interes en una iniciativa particular, la generación de una versión en borrador es iniciada.</li>
+                  <li name="b8e4" id="b8e4" class="graf graf--li graf-after--li">El ciudadano que inicialmente propuso la iniciativa puede invitar a otros a que ayuden con el borrador de la propuesta de la ley. Una herramienta de colaboración en linea es usada (similar a Google Docs, Wikipedia o Git). Los ciudadanos pueden también discutir el borrador en su totalidad o por partes. Se lleva un registro de los cambios.</li>
+                  <li name="993d" id="993d" class="graf graf--li graf-after--li">Cuando el ciudadano que inicialmente propuso la iniciativa decide que la propuesta está completa, se programa una votación.</li>
               </ol>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Debating initiatives or ideas</div>
+          <div slot="header">Debatiendo iniciativas</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p name="ea1c" id="ea1c" class="graf graf--p graf-after--h3">Within a Neocratic community:</p>
+              <p name="ea1c" id="ea1c" class="graf graf--p graf-after--h3">En una comunidad Neocratica:</p>
               <ul class="postList">
-                  <li name="46f8" id="46f8" class="graf graf--li graf-after--p">All people eligible to vote in any given jurisdiction may participate.</li>
-                  <li name="4e5e" id="4e5e" class="graf graf--li graf-after--li">Conversations happen online via an electronic platform.</li>
-                  <li name="e217" id="e217" class="graf graf--li graf-after--li">Conversations could be centered about a proposal or any other topic relevant to the group.</li>
-                  <li name="a963" id="a963" class="graf graf--li graf-after--li">Citizens are able to upvote or downvote the comments of others.</li>
-                  <li name="18ee" id="18ee" class="graf graf--li graf-after--li">Comments that people agree with the most become more visible by rising to the top of threads.</li>
-                  <li name="be5f" id="be5f" class="graf graf--li graf-after--li">Conversations and comments are transparent. Upvotes and downvotes by representatives are public; those by individual citizens are private.</li>
+                  <li name="46f8" id="46f8" class="graf graf--li graf-after--p">Toda la gente que tenga permitido votar en cualquier jurisdicción dada puede participar.</li>
+                  <li name="4e5e" id="4e5e" class="graf graf--li graf-after--li">Las conversaciones suceden en línea por medio de una plataforma electrónica.</li>
+                  <li name="e217" id="e217" class="graf graf--li graf-after--li">Las conversaciones pueden estar centradas en una propuesta o cualquier otro tema relevante al grupo.</li>
+                  <li name="a963" id="a963" class="graf graf--li graf-after--li">Los ciudadanos pueden votar positiva o negativamente los comentarios de los demás.</li>
+                  <li name="18ee" id="18ee" class="graf graf--li graf-after--li">Los comentarios con los que la gente esté más de acuerdo tendrán más visibilidad elevandose al inicio de los hilos de conversación.</li>
+                  <li name="be5f" id="be5f" class="graf graf--li graf-after--li">Las conversaciones y comentarios son transparentes. Los votos positivos y negativos por los representantes son públicos. Los que se hagan por ciudadanos individuales son privados.</li>
               </ul>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Making decisions</div>
+          <div slot="header">Tomando decisiones</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p name="e798" id="e798" class="graf graf--p graf-after--h3">Neocratic communities make decisions by voting on law proposals. These can be new or replace existing laws. Voting happens online via an electronic platform. Law proposals are publicly scheduled for voting. Voting lasts for a few days, and the results then made public.</p>
-              <p name="5a17" id="5a17" class="graf graf--p graf-after--p">We believe citizens should be able to vote for laws directly or delegate their votes to others. Each citizen eligible to vote within a jurisdiction has three voting options.</p>
+              <p name="e798" id="e798" class="graf graf--p graf-after--h3">Las comunidades Neocraticas toman decisiones votando en propuestas de ley. Estas pueden ser nuevas o reemplazar leyes existentes. Las votaciones suceden en línea usando una plataforma electrónica. Las propuestas de ley son programadas públicamente. La votación dura unos pocos días, y los resultados son hechos publicos cuando terminan.</p>
+              <p name="5a17" id="5a17" class="graf graf--p graf-after--p">Creemos que los ciudadanos deberían poder votar por las leyes directamente o delegar su voto a otros. Cada ciudadano que tenga permitido votar dentro de una jurisdicción tiene tres opciones de voto.</p>
               <ul class="postList">
-                  <li name="9912" id="9912" class="graf graf--li graf-after--p">The citizen can do nothing. If the citizen has chosen one or more representatives, the representatives vote on behalf of the citizen. If the citizen does not have a representative, or their representative(s) do not vote, they will abstain from the vote.</li>
-                  <li name="b8b9" id="b8b9" class="graf graf--li graf-after--li">The citizen may choose one or more one-time representatives to vote on their behalf. If the citizen had chosen one or more representatives who had already voted for the law proposal, the vote of the one-time representatives will override the decision of the general representatives. Citizens may change representatives up until voting closes.</li>
-                  <li name="8756" id="8756" class="graf graf--li graf-after--li">The citizen can vote directly for the proposal, thereby overriding the decision made by the representatives on their behalf.</li>
+                  <li name="9912" id="9912" class="graf graf--li graf-after--p">El ciudadano puede elegir no hacer nada. Si el ciudadano ha elegido uno o más representantes, los representates votan por el ciudadano. Si el ciudadano no tiene un representante, o su representante(s) no vota, se tomará como abstinencia del voto.</li>
+                  <li name="b8b9" id="b8b9" class="graf graf--li graf-after--li">El ciudadano puede elegir uno o más representantes de una sola vez para votar en su nombre. Si el ciudadano ha elegido uno o más representantes que ya votaron por la propuesta de ley, el voto del representante de una sola vez tendrá prelación sobre el voto del representante general. Los ciudadanos pueden cambiar de representantes hasta que la votación cierre.</li>
+                  <li name="8756" id="8756" class="graf graf--li graf-after--li">El ciudadano puede votar directamente por la propuesta, lo cual tiene preferencia sobre la decisión tomada por el representante en su nombre.</li>
               </ul>
-              <p name="95f7" id="95f7" class="graf graf--p graf-after--li">Each citizen is given control by being able to view how their chosen representatives, and the representatives of their representatives, voted for a law proposal while the voting is still in progress. To avoid groupthink, the overall voting results are only made public when the voting ends.</p>
+              <p name="95f7" id="95f7" class="graf graf--p graf-after--li">Cada ciudadano es dado el control de forma que puedan ver como sus representantes y los representantes de sus representantes votaron por una propuesta de ley mientras la votación está en progreso. Para evitar el pensamiento de grupo, los resultados finales solo son hechos públicos cuando las votaciones terminen.</p>
 
-              <p>Some call this type of decision-making <a href="https://en.wikipedia.org/wiki/Delegative_democracy" target="_blank">liquid democracy</a>.</p>
+              <p>Algunos llaman a este tipo de toma de decisiones <a href="https://en.wikipedia.org/wiki/Delegative_democracy" target="_blank">democracia líquida</a>.</p>
 
 
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Choosing representatives</div>
+          <div slot="header">Escogiendo representantes</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p>Citizens eligible to vote within any Neocratic jurisdiction may choose representatives using an electronic platform. When citizens don’t vote for a law proposal directly, representatives vote on their behalf. Representatives, in turn, can delegate their vote, and those delegated to them, to other representatives. When choosing two or more representatives, the vote delegation will be split into equal parts. Thus, if a citizen chooses four representatives, each representative will be able to vote (or delegate) 25% of the citizen’s vote.</p>
+              <p>Los ciudadanos aptos para votar dentro de cualquier jurisdicción Neocratica pueden elegir representantes usando una plataforma electrónica. Cuando los ciudadanos no votan por una propuesta de ley directamente, los representantes votan en su nombre. Los representantes pueden, a su vez, delegar su voto y aquellos delegados a ellos a otros representantes. Cuando se eligen dos o más representantes, el voto delegado se dividirá en partes iguales. En consecuencia, si un ciudadano elige cuatro representantes, cada representante podrá votar (o delegar) el 25% del voto del ciudadano.</p>
               <img src="~/assets/delegation_graph-min.png" class="img-responsive">
-              <p name="a765" id="a765" class="graf graf--p graf-after--figure">Representatives have a voting weight. This is the sum of all votes delegated to a representative plus the representative’s own vote. Representatives may also choose their own representatives and delegate all their voting weight.</p>
-              <p name="20ec" id="20ec" class="graf graf--p graf-after--p">In a Neocratic community, all citizens may allow others to choose them as representatives. The only requirements are their agreeing to making all votes transparent and visible to others and volunteering their work. Similarly to how volunteers have created Wikipedia and made it broader, fairer, and more accurate than previous encyclopedias created by paid editors, we believe that many volunteer representatives will perform a better job than a few paid, income-dependent politicians.</p>
-              <p name="8aef" id="8aef" class="graf graf--p graf-after--p">Neocratia citizens are able to choose the representatives they want at any time and change them should they no longer feel duly represented.</p>
+              <p name="a765" id="a765" class="graf graf--p graf-after--figure">Los representantes tienen un peso para su voto. Este peso es la suma de todos los votos delegados a un representante más el voto propio del representante. El representante puede también elegir sus propios representantes y delegar todo su peso.</p>
+              <p name="20ec" id="20ec" class="graf graf--p graf-after--p">En una comunidada Neocratica, todos los ciudadanos pueden permitir a otros elegirlos como representantes. El único requerimiento es su acuerdo en hacer todos los votos de forma transparente y visible a los demas y aceptar que su trabajo es voluntario. Similar a la forma en que voluntarios han creado Wikipedia y la han hecho mas amplia, justa, y más precisa que las enciclopedias previas creadas por editores pagos, creemos que muchos representantes voluntarios harán un mejor trabajo que unos pocos politicos dependientes de su salario.</p>
+              <p name="8aef" id="8aef" class="graf graf--p graf-after--p">Los ciudadanos de Neocratia pueden elegir los representantes que quieren en cualquier momento y cambiarlos en cuanto sientan que no están siendo bien representados.</p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Scrutinizing representatives</div>
+          <div slot="header">Escudriñando representantes</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              Representatives in Neocratic communities have public profiles on an electronic platform. This allows citizens to determine how their representatives voted for law proposals, which comments were upvoted and downvoted by their representatives during debates, whether the representatives chose their own representatives, as well as their voting weights.
+              Los representantes en una comunidada Neocratica tienen perfiles públicos en una plataforma electrónica. Esto permite a los ciudadanos determinar como sus representantes votaron por propuestas de ley, que comentarios fueron votados positiva y negativamente por sus representantes durante los debates, si los representantes escogieron sus propios representantes, así como su peso de votación.
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Neocratia and its electronic platform</div>
+          <div slot="header">Neocratia y su plataforma electrónica</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p name="9c8f" id="9c8f" class="graf graf--p graf-after--h3">Neocratia’s values and principles require a reliable and secure electronic platform.</p>
-              <p name="30c1" id="30c1" class="graf graf--p graf-after--p">We are currently building an open source platform called <a href="https://neocratium.org" target="_blank">Neocratium</a>, and we encourage others to build alternatives. (We'll gladly advise.) Neocratium will allow communities of any size and type — even non-political ones — to manage their democracies. Once Neocratium is ready, groups can create communities using the hosted version, or download the source code and install their own on a server.</p>
-              <p name="ae80" id="ae80" class="graf graf--p graf-after--p">When a community uses Neocratium, the settings of the platform will be managed by a team of administrators. The platform administrators will be appointed by the executive branch of the government of each community (following procedures similar to current democratic convention). Each citizen will have an account provided and/or approved by the administrators. Neocratium will offer single sign-on integration with existing electronic IDs already offered by numerous governments.</p>
-              <p name="eac4" id="eac4" class="graf graf--p graf-after--p">Neocratia will be working with electoral management bodies (EMBs) and other NGOs to guarantee that Neocratium and the other electronic platforms work towards preventing, recording, and reporting potential electoral fraud.</p>
-              <p name="c7ce" id="c7ce" class="graf graf--p graf-after--p">If you are interested in helping to create Neocratium as a volunteer, please contact neocratium@neocratia.org.</p>
-              <p name="4b61" id="4b61" class="graf graf--p graf-after--p graf--trailing">If you are considering building or adapting a platform based on the values and principles of Neocratia, we can help. Contact build@neocratia.org.</p>
+              <p name="9c8f" id="9c8f" class="graf graf--p graf-after--h3">Los valores y principios de Neocratia requieren de una plataforma electrónica segura y confiable.</p>
+              <p name="30c1" id="30c1" class="graf graf--p graf-after--p">Actualmente estamos construyendo una plataforma de código abierto llamada <a href="https://neocratium.org" target="_blank">Neocratium</a>, y alentamos a que se construyan alternativas.(Con gusto daremos consejo.) Neocratium le permitirá a las comunidades de todo tipo y tamaño - incluso las no politicas - administrar sus democracias. Una vez Neocratium esté listo, los grupos podrán crear comunidades usando la versión hospedada, o descargar el código fuente e instalarlo en su propio servidor.</p>
+              <p name="ae80" id="ae80" class="graf graf--p graf-after--p">Cuando una comunidad usa Neocratium, las configuraciones de la plataforma serán manejadas por un equipo de administradores. Los administradores de la plataforma serán elegidos por la rama ejecutiva del gobierno de cada comunidad (siguiendo procedimientos similares a la convención democratica actual). Cada ciudadano tendrá una cuenta provista y/o aprobada por los administradores. Neocratium ofrecerá autenticación con IDs electronicas ofrecidas ya por numerosos gobiernos.</p>
+              <p name="eac4" id="eac4" class="graf graf--p graf-after--p">Neocratia trabajará con los cuerpos de administración electoral y otras ONGs para garantizar que Neocratium y las otras plataformas electrónicas trabajan con el objetivo de prevenir, grabar y reportar cualquier posible fraude electoral.</p>
+              <p name="c7ce" id="c7ce" class="graf graf--p graf-after--p">Si está interesado en ayudar a crear Neocratium como voluntario, por favor contactenos en neocratium@neocratia.org.</p>
+              <p name="4b61" id="4b61" class="graf graf--p graf-after--p graf--trailing">Si está considerando construir o adaptar una plataforma basada en los principios y valores de Neocratia, podemos ayudar. Contactenos en build@neocratia.org.</p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
         <v-expansion-panel-content ripple>
-          <div slot="header">Our plan of action</div>
+          <div slot="header">Nuestro plan de acción</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p name="05ab" id="05ab" class="graf graf--p graf-after--h3">In summary:</p>
+              <p name="05ab" id="05ab" class="graf graf--p graf-after--h3">En resumen:</p>
               <ol class="postList">
-                  <li name="8cbf" id="8cbf" class="graf graf--li graf-after--p">We aim to identify several communities around the world that are ripe for launching a successful campaign to get enough seats in their local legislative body;</li>
-                  <li name="c6ea" id="c6ea" class="graf graf--li graf-after--li">Once elected, they upgrade the legislative body with a technology platform (<a href="https://neocratium.org" target="_blank">Neocratium</a> or an alternative one) where initiatives are proposed, initiatives debated, and votes cast privately. Representatives are constantly scrutinized, and decisions made with transparency;</li>
-                  <li name="153f" id="153f" class="graf graf--li graf-after--li">Once Neocratia has been shown to work in a few communities, we aim to make as many communities as we can around the world Neocratic.</li>
+
+                  <li name="8cbf" id="8cbf" class="graf graf--li graf-after--p">Apuntamos a identificar diferentes comunidades alrededor del mundo que estén listas para lanzar una campaña exitosa para obtener suficientes puestos en su cuerpo legislativo local;</li>
+                  <li name="c6ea" id="c6ea" class="graf graf--li graf-after--li">Una vez elegidos, ellos actualizan su cuerpo legislativo con una plataforma tecnológica(<a href="https://neocratium.org" target="_blank">Neocratium</a> o una alternativa) donde las iniciativas sean propuestas, debatidas y los votos sean hechos de forma privada. Los representantes son constantemente escudriñados, y las decisiones son tomadas con transparencia.</li>
+                  <li name="153f" id="153f" class="graf graf--li graf-after--li">Una vez se haya mostrado que Neocratia funciona en unas cuantas comunidades, apuntamos a hacerlo en tantas como podamos alrededor del mundo.</li>
               </ol>
-              <p name="301f" id="301f" class="graf graf--p graf-after--li">The roadmap for each community:</p>
+              <p name="301f" id="301f" class="graf graf--p graf-after--li">El camino para cada comunidad:</p>
               <ol class="postList">
-                  <li name="c03d" id="c03d" class="graf graf--li graf-after--p">Members of a community pledge to elect Neocratia representatives in their traditional elections;</li>
-                  <li name="c85c" id="c85c" class="graf graf--li graf-after--li">If required, the local movement completes the paperwork to elect representatives to public office — such as registering a political party, collecting signatures, etc.;</li>
-                  <li name="2be8" id="2be8" class="graf graf--li graf-after--li">Should enough pledges be made, the pledgers vote for Neocratia candidates when elections take place;</li>
-                  <li name="a2c7" id="a2c7" class="graf graf--li graf-after--li">Once elected, Neocratia representatives pass the laws needed to upgrade the legislative body with a technology platform (Neocratium or an alternative one).</li>
+                  <li name="c03d" id="c03d" class="graf graf--li graf-after--p">Los miembros de una comunidad se comprometen a elegir representantes de Neocratia en sus elecciones tradicionales;</li>
+                  <li name="c85c" id="c85c" class="graf graf--li graf-after--li">Si es requerido, el movimiento local completa el papeleo para elgir los representantes a la oficina pública - como por ejemplo registrar un partido politico, recolectar firmas, etc.;</li>
+                  <li name="2be8" id="2be8" class="graf graf--li graf-after--li">Si se hacen suficientes compromisos, los comprometidos votan por los candidatos cuando las elecciones sucedan;</li>
+                  <li name="a2c7" id="a2c7" class="graf graf--li graf-after--li">Una vez elegidos, los representantes de Neocratia pasan las leyes requeridas para actualizar el cuerpo legislativo con una platarforma de tecnología (Neocratium o una alternativa).</li>
               </ol>
-              <p name="aed1" id="aed1" class="graf graf--p graf-after--li">Should an insufficient number of Neocratia representatives be elected to pass the legislation required to upgrade the legislative body, those representatives will act as proxies until the following election cycle.</p>
-              <p name="21c9" id="21c9" class="graf graf--p graf-after--p">Proxy representatives act as intermediaries between the group who elected them and the public office they are elected to. Their actions are circumscribed by the decisions of the group using Neocratium.</p>
-              <p name="517b" id="517b" class="graf graf--p graf-after--p">Proxy representatives won't have an opinion of their own. They will be accountable as their reputation will be on the line. If a proxy representative fails at their job, and depending on the government’s legislation, the group that elected him/her may be able to impeach them.</p>
+              <p name="aed1" id="aed1" class="graf graf--p graf-after--li">Si un número insuficiente de representantes de Neocratia son elegidos para pasar la legislación requerida para actualizar el cuerpo legislativo, esos representantes actuarán como apoderados hasta el próximo ciclo de elecciones.</p>
+              <p name="21c9" id="21c9" class="graf graf--p graf-after--p">Los representantes que actuan como apoderados son intermediarios entre el grupo que los eligió y la oficina pública para la que fueron elegidos. Sus acciones están dictaminadas por las decisiones del grupo usando Neocratium.</p>
+              <p name="517b" id="517b" class="graf graf--p graf-after--p">Los representantes que actúen como apoderados no tendrán una opinión propia. Serán responsables por sus acciones dado que su reputación está en la línea. Si un representante no cumple con su trabajo, y dependiendo de la legislación vigente, el grupo que lo eligió podría impugnarlo.</p>
               <p>
-                <strong >Would you like to know more? <a href="#card-join" class="v-smooth-scroll" rel="nofollow" >Click here and send us your email address</a>. As soon as enough people in your area are interested, we’ll help you lead or become a member of your own local movement.</strong>
+                <strong >¿Te gustaría saber más? <a href="#card-join" class="v-smooth-scroll" rel="nofollow" > Da click aquí y envíanos tu dirección de email</a>. Tan pronto como suficiente gente en tu área esté interesada, te ayudaremos a liderar o a convertirte en en miembro de tu gobierno local.</strong>
               </p>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
 
         <v-expansion-panel-content ripple>
-          <div slot="header">Neocratia funding</div>
+          <div slot="header">Financiación de Neocratia</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              Neocratia is a non-profit effort that depends on donations from people like you. We’re tired of big money and corporations influencing politics. Because of that, Neocratia will only accept donations from individuals. Even then, we’ll limit the amount to avoid depending too much on a single person.
+              Neocratia es un esfuerzo sin ánimo de lucro que depende de donaciones de gente como usted. Estamos cansados de corporaciones que influencian politicas. Por eso, Neocratia solo aceptará donaciones de individuos. Incluso así, limitaremos la cantidad para evitar depender demasiado en una sola persona.
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
 
         <v-expansion-panel-content ripple>
-          <div slot="header">How Neocratia is structured</div>
+          <div slot="header">¿Cómo está estructurada Neocratia?</div>
           <v-card>
             <v-card-text class="grey lighten-4">
-              <p name="769c" id="769c" class="graf graf--p graf-after--h3">Neocratia is a global movement that will have autonomous local chapters. Locally, Neocratia will take different legal structures depending on local laws and the requirements to receive donations and have candidates elected to public office. It may be an NGO, a political party, or a movement that doesn’t have a legal structure.</p>
-              <p name="4584" id="4584" class="graf graf--p graf-after--p">Globally, Neocratia will be governed by a board of directors that elects an executive director.</p>
+              <p name="769c" id="769c" class="graf graf--p graf-after--h3">Neocratia es un movimiento global que tendrá capítulos autónomos locales. Localmente, Neocratia tomará diferentes estructuras legales dependiendo de las leyes locales y los requerimientos para recibir donaciones y tener candidatos electos en oficinas públicas. Puede ser una ONG, un partido politico, o un movimiento que no tiene estructura legal.</p>
+              <p name="4584" id="4584" class="graf graf--p graf-after--p">Globalmente, Neocratia estará gobernada por una junta de directores que elige a un director ejecutivo.</p>
               
-              <strong>Project leader</strong>
+              <strong>Líder del proyecto</strong>
               <br>
               Alexander Torrenegra
-              <br>Responsible for:
+              <br>Responsable de:
               <ul>
-                <li>Pursuing the vision.</li>
-                <li>Making major decisions.</li>
-                <li>Obtaining the resources required to execute the vision.</li>
-                <li>Managing the overall operations and resources of the project.</li>
-                <li>Be the spokesperson for the project.</li>
-                <li>Be the tiebreaker for initiatives of the board of directors that end in a voting tie.</li>
+                <li>Perseguir la visión.</li>
+                <li>Tomar decisiones importantes.</li>
+                <li>Obtener los recursos requeridos para ejecutar la visión.</li>
+                <li>Manejar las operaciones generales y los recursos del proyecto.</li>
+                <li>Ser el vocero del proyecto.</li>
+                <li>Desempatar las iniciativas de la junta directiva que terminen en empate.</li>
               </ul>
               <p></p>
-              <strong>Board of directors</strong>
-              <br>Responsible for:
+              <strong>Junta directiva</strong>
+              <br>Responsable de:
               <ul>
-                <li>Determining the vision of the project.</li>
-                <li>Electing the project leader.</li>
-                <li>Determining who can be a member of the board.</li>
-                <li>Determining the voting weight for each member of the board.</li>
+                <li>Determinar la visión del proyecto.</li>
+                <li>Elegir el líder del proyecto.</li>
+                <li>Determinar quien puede ser un miembro de la junta.</li>
+                <li>Determinar el peso del voto para cada miembro de la junta.</li>
               </ul>
-              Eligibility for being a member of the board:
+              Elegibilidad para ser un miembro de la junta:
               <ul>
-                <li>Elected by the majority vote by the board of directors.</li>
+                <li>Elegido por voto mayoritario por la junta de directores.</li>
               </ul>
-              <strong>Voting weight for each director:</strong>
+              <strong>Peso del voto de cada director:</strong>
               <ul>
-                <li>Each director will earn one vote for each hour of volunteering work after approval by the rest of the board of a directors.</li>
-                <li>Each director will lose 50% of their votes after 90 days of not getting new votes via rule #1 above.</li>
-                <li>Each director will lose 100% of their votes and their status as member of the board after 365 days of not getting new votes via rule #1 above.</li>
+                <li>Cada director tendrá un voto por cada hora de trabajo voluntario despues de aprobación por el resto de la junta directiva.</li>
+                <li>Cada director perderá 50% de sus votos despues de 90 días de no obtener nuevos votos usando la regla #1.</li>
+                <li>Cada director perderá el 100% de sus votos y su estado como miembro de la junta despues de 356 días de no obtener votos usando la regla #1.</li>
               </ul>
-              <strong>Volunteers</strong>
-              <br>Responsible for:
+              <strong>Voluntarios</strong>
+              <br>Responsable de:
               <ul>
-                <li>Following the directives of the project leader.</li>
+                <li>Seguir las directivas del lider de proyecto.</li>
               </ul>
-              Eligibility:
+              Eligibilidad:
               <ul>
-                <li>Everyone.</li>
+                <li>Todos.</li>
               </ul>
              </v-card-text>
           </v-card>
