@@ -47,7 +47,7 @@
         <div slot="description">
             {{ $t('team.nicolas_contreras_description') }}
         </div>
-        <img slot="image" src="~/assets/team/nicolas-bw.png" height="120"> 
+        <img slot="image" src="~/assets/team/nicolas-bw.jpg" height="120"> 
         </TeamMember>
 
         <TeamMember 
