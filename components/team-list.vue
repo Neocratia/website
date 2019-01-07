@@ -40,6 +40,17 @@
         </TeamMember>
 
         <TeamMember 
+        title="Nicolás Contreras"
+        link="https://torre.bio/ni500"
+        className="mt-4"
+        >
+        <div slot="description">
+            {{ $t('team.nicolas_contreras_description') }}
+        </div>
+        <img slot="image" src="~/assets/team/nicolas-bw.png" height="120"> 
+        </TeamMember>
+
+        <TeamMember 
         title="Rolf Veldman"
         link="https://www.linkedin.com/in/rolfveldman/"
         className="mt-4"
